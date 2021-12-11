@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.comocomprar__titulo{
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+
+
+.subtitulo{
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgb(128, 185, 157);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-top: 0px; 
+}
+
+
+
+/*ELEGIR PRODUCTO*/
+#elegirproducto{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.elegirproducto__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.elegirproducto__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+}
+
+.elegirproducto__txt{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.elegirproducto__txt--span{
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.elegirproducto__txt--enlace{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.elegirproducto__txt--enlace:hover{
+    color: rgb(0, 67, 251);
+}
+
+.elegirproducto__img{
+    width: 70px;
+    height: 70px;                 
+}
+
+.elegirproducto__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*REALIZAR PEDIDO*/
+
+#realizarpedido{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.realizarpedido__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.realizarpedido__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+}
+
+.realizarpedido__txt{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.realizarpedido__txt--enlaces{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.realizarpedido__txt--enlaces:hover{
+    color: rgb(0, 67, 251);
+}
+
+.realizarpedido__img{
+    width: 70px;
+    height: 70px;                 
+}
+
+.realizarpedido__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*COMO PAGAR*/
+
+#comopagar{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+    margin-bottom: 15px;
+}
+
+.comopagar__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comopagar__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+}
+
+.comopagar__lista{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.comopagar__img{
+    width: 70px;
+    height: 70px;                
+}
+
+.comopagar__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*RECIBIR/RETIRAR*/
+#recibiroretirar{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 60px;
+
+}
+
+.recibiroretirar__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recibiroretirar__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+    
+}
+
+.recibiroretirar__lista{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.recibiroretirar__img{
+    width: 70px;
+    height: 70px;                 
+}
+
+.recibiroretirar__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*ZONAS DE ENVIOS*/
+
+
+
+#envioszonas__img{
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#envioszonas__img img{
+    width: 30%;
+    height: auto;
+}
+
+.envioszonas__h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    font-family: 'Gentium Book Basic', serif;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px; 
+    justify-self: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+#mediospagos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#mediospagos img{
+    width: 40%;
+    height: auto;
+}
+
+

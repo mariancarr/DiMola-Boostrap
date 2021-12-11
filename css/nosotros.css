@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.separador{
+    height: 3px;
+    margin: 0px 0px;
+}
+
+
+
+#nosotros__img img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s linear;
+}
+
+#nosotros__img img:hover{
+    opacity: 0.6;
+}
+
+#nosotros__img video{
+    width: 80%;
+    height: auto;    
+}
+
+.nosotros__titulo {
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    align-self: center;
+    text-align: center;
+}
+
+
+#nosotros__txt span{
+    font-size: 5rem;
+    color: chocolate;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.nosotros__h2{
+    margin-bottom: 50px;
+    
+}
+
+.nosotros__txt--normal{
+    margin: 20px 0px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.nosotros__txt--negrita{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.nosotros__texto__caritafeliz{
+    font-size: 5rem;
+    color: chocolate;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.nosotros__texto__subtitulo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nosotros__texto__parrafo{
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nosotros__texto__parrafo--normal{
+    margin: 20px 0px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.nosotros__texto__parrafo--negrita{
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+

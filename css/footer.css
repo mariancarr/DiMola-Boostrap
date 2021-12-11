@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer{
+    padding-top: 50px;
+    background-color: rgb(135, 180, 190);
+}
+
+#footer__nav li{
+    margin-top: 5px;
+}
+
+#footer__nav a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease-in;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#footer__nav a:hover{
+    color: rgb(255, 255, 255); 
+}
+
+#footer__p{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    margin: 25px 0px;
+    line-height: 1;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    border-right: solid 2px rgb(101, 144, 151);
+    border-left: solid 2px rgb(101, 144, 151); 
+    text-align: center;  
+}
+
+#footer__end{
+    background: rgb(97, 134, 146);
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+#footer__end p{
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+
+#footer__end span{
+    opacity: 0.3;
+    font-weight: 200;
+}
