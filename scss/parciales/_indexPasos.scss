@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#index__pasos{
+    
+    &__img{
+        margin-top: 20px;
+        width: 130px;
+        height: 130px;
+        transition: all 0.6s linear;
+            &:hover{
+                opacity: 0.8;
+            }
+    } 
+
+    &__span3{
+        color: rgb(46, 124, 138);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.3rem;
+    }
+    
+    &__span2{
+        color: rgb(49, 122, 46);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.3rem;
+    }
+    
+    &__span1{
+        color: rgb(146, 144, 24);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+

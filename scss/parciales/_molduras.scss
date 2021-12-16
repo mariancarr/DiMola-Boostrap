@@ -1,0 +1,35 @@
+#molduras{
+    margin-top: 200px;
+
+    &__sublista{
+        list-style: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+        line-height: 1.8;
+        justify-content: center;
+        padding: 10px;
+        color: rgb(58, 58, 58);
+    }
+
+    &__imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 50px;
+
+        &__img1 {
+            width: 90%;
+            height: auto;
+        }
+
+        &__img2 {
+            width: 70%;
+            height: auto;
+        }
+    }  
+}
+
+
+

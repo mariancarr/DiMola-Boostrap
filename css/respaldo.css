@@ -1,0 +1,1246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#telasLienzo{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+ 
+.productos__titulo {
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+
+.productos__subtitulo{
+    color: rgb(51, 158, 51);
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.productos__lista{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+
+
+.productos__parrafo{
+    text-align: center;
+    line-height: 2;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.producto__img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    grid-area: productoimg;
+}
+
+.producto__img1y2{
+    width: 340px;
+    height: 340px;
+}
+
+.producto__img3{
+    width: 294px;
+    height: 294px;
+}
+
+
+
+.tiposdelienzo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tiposdelienzo__titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color:  rgb(51, 158, 51);
+}
+
+.tiposdelienzo__produc{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    justify-content: center ;
+}
+
+.tiposdelienzo__produc img{
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(148, 187, 221);
+    transition: all 0.3s linear;
+}
+
+.tiposdelienzo__produc img:hover{
+    opacity: 0.75;
+}
+
+.rollolienzo {
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.rollolienzo h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    color:  rgb(92, 190, 92);
+}
+
+.rollolienzo span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.grano__fino{
+    flex-basis: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.grano__medio{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.grano__grueso{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.canvas__negro{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lienzos--descripcion{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1 rem;
+    color: rgb(59, 59, 59);
+}
+
+.lienzos--gramos{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1 rem;
+    color: rgb(59, 59, 59);
+    
+}
+
+
+#molduras{
+    margin-top: 200px;
+}
+
+
+.molduras__titulo{
+    text-align: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    color:  rgb(92, 190, 92);
+    margin-bottom: 30px;
+}
+
+.molduras__lista{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+}
+
+.molduras__sublista{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    justify-content: center;
+    padding: 10px;
+    
+    list-style: none;
+    color: rgb(58, 58, 58);
+}
+
+#molduras__imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
+
+.molduras__img1 {
+    height: 250px;
+    width: 400px;
+}
+
+.molduras__img2 {
+    height: 300px;
+    width: 300px;
+}
+
+
+#medidas{
+    margin-top: 200px;
+}
+
+
+#medidas__img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#medidas__img img{
+    width: 70%;
+    height: auto;
+    box-shadow: 10px 10px 8px rgb(181, 189, 195);
+    border-radius: 3px;
+} 
+
+
+
+.medidas__titulo{
+    text-align: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color:  rgb(92, 190, 92);
+    
+}
+
+.medidas__lista{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    color: rgb(77, 77, 77);
+    text-align: justify;
+    list-style-position: inside;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#telasLienzo{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+ 
+.productos__titulo {
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+
+.productos__subtitulo{
+    color: rgb(51, 158, 51);
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.productos__lista{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+
+
+.productos__parrafo{
+    text-align: center;
+    line-height: 2;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.producto__img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    grid-area: productoimg;
+}
+
+.producto__img1y2{
+    width: 340px;
+    height: 340px;
+}
+
+.producto__img3{
+    width: 294px;
+    height: 294px;
+}
+
+
+
+.tiposdelienzo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tiposdelienzo__titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color:  rgb(51, 158, 51);
+}
+
+.tiposdelienzo__produc{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    justify-content: center ;
+}
+
+.tiposdelienzo__produc img{
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(148, 187, 221);
+    transition: all 0.3s linear;
+}
+
+.tiposdelienzo__produc img:hover{
+    opacity: 0.75;
+}
+
+.rollolienzo {
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.rollolienzo h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    color:  rgb(92, 190, 92);
+}
+
+.rollolienzo span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.grano__fino{
+    flex-basis: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.grano__medio{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.grano__grueso{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.canvas__negro{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lienzos--descripcion{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1 rem;
+    color: rgb(59, 59, 59);
+}
+
+.lienzos--gramos{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1 rem;
+    color: rgb(59, 59, 59);
+    
+}
+
+
+#molduras{
+    margin-top: 200px;
+}
+
+
+.molduras__titulo{
+    text-align: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    color:  rgb(92, 190, 92);
+    margin-bottom: 30px;
+}
+
+.molduras__lista{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgb(58, 58, 58);
+    font-weight: 700;
+}
+
+.molduras__sublista{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    justify-content: center;
+    padding: 10px;
+    
+    list-style: none;
+    color: rgb(58, 58, 58);
+}
+
+#molduras__imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
+
+.molduras__img1 {
+    height: 250px;
+    width: 400px;
+}
+
+.molduras__img2 {
+    height: 300px;
+    width: 300px;
+}
+
+
+#medidas{
+    margin-top: 200px;
+}
+
+
+#medidas__img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#medidas__img img{
+    width: 70%;
+    height: auto;
+    box-shadow: 10px 10px 8px rgb(181, 189, 195);
+    border-radius: 3px;
+} 
+
+
+
+.medidas__titulo{
+    text-align: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color:  rgb(92, 190, 92);
+    
+}
+
+.medidas__lista{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    color: rgb(77, 77, 77);
+    text-align: justify;
+    list-style-position: inside;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.precios{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.precios__titulo h1{
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+.precios__bastidores{
+    width: 50%;
+    height: 100%;
+}
+
+.precios img{
+    width: 100%;
+    height: 100%;
+}
+
+
+  
+
+@media screen  and (max-width: 425px){
+    .precios{
+        gap: 50px;
+    }
+
+    .precios__titulo h1{
+        font-size: 2rem;
+        letter-spacing: 1.7px;
+        margin-top: 60px;
+        margin-bottom: 20px; 
+    }
+
+    .precios__bastidores{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+        padding: 10px;
+    }
+
+    .precios img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#hero{
+    background-image: url("../images/fondohero.jpeg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-attachment: fixed;
+}
+
+
+#hero__titulo{
+    font-size: 1.9rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom: solid 2px rgb(116, 188, 221);
+}
+
+.hero__subtitulo{
+    font-size: 3.4rem;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+
+#index__nav{
+    transition: all 0.4s ease-out; 
+    height: 20vh;
+    box-shadow: 0px 0px 10px 0px rgb(68, 68, 68); 
+}
+
+#index__nav:hover{
+    background-color: rgba(218, 248, 215, 0.657);
+}
+
+.index__nav__texto{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(52, 156, 52);
+    font-family: 'Architects Daughter', cursive;
+    text-align: center; 
+    font-weight: 700;
+   
+}
+
+.index__nav__texto:hover{
+    color: rgb(52, 156, 52);  
+}
+
+#index__pedidos{
+    height: 22vh;
+    padding: 10px;
+}
+
+.index__pedido__subtitulos{
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.index__pedido__subtitulos:hover{
+    color: black;
+}
+
+.index__pedido__enlaces{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: all 0.2s linear;
+}
+
+.index__pedido__enlaces:hover{
+    color: rgb(60, 187, 103);
+    opacity: 0.7;
+}
+
+
+#index__pasos img{
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+    transition: all 0.2s linear;
+} 
+
+#index__pasos img:hover{
+    opacity: 0.8;
+}
+
+.index__how__pasos__span3{
+    color: rgb(46, 124, 138);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+
+.index__how__pasos__span2{
+    color: rgb(49, 122, 46);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+
+.index__how__pasos__span1{
+    color: rgb(146, 144, 24);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#separador{
+  height: 5px;
+  margin: 0px 0px;
+  border: none;
+}
+
+#navbar{
+    background-color: rgb(114, 155, 165);
+    padding: 10px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+.logo{
+    margin-left: 100px;
+    width: 170px;
+    height: 85px;
+}
+
+.logo__img{
+    width: 85%;
+    height: auto;
+}
+
+
+
+
+#nav__links{
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#nav__links:hover{
+    background-color:rgba(106, 146, 156, 0.507); 
+    border-radius: 6px;
+    
+}
+
+
+
+
+.color-change-4x {
+	-webkit-animation: color-change-4x 8s linear infinite alternate both;
+	        animation: color-change-4x 8s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-4x {
+    0% {
+      background: #19dcea;
+    }
+    33.3333% {
+      background: #b22cff;
+    }
+    66.666% {
+      background: #ea2222;
+    }
+    100% {
+      background: #f5be10;
+    }
+  }
+  @keyframes color-change-4x {
+    0% {
+      background: #19dcea;
+    }
+    33.3333% {
+      background: #b22cff;
+    }
+    66.666% {
+      background: #ea2222;
+    }
+    100% {
+      background: #f5be10;
+    }
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer{
+    padding-top: 50px;
+    background-color: rgb(135, 180, 190);
+}
+
+#footer__nav li{
+    margin-top: 5px;
+}
+
+#footer__nav a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease-in;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#footer__nav a:hover{
+    color: rgb(255, 255, 255); 
+}
+
+#footer__p{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    margin: 25px 0px;
+    line-height: 1;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    border-right: solid 2px rgb(101, 144, 151);
+    border-left: solid 2px rgb(101, 144, 151); 
+    text-align: center;  
+}
+
+#footer__end{
+    background: rgb(97, 134, 146);
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+#footer__end p{
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+
+#footer__end span{
+    opacity: 0.3;
+    font-weight: 200;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.contacto__titulo{
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    margin-bottom: 50px; 
+}
+
+.separador{
+    height: 3px;
+    margin: 0px 0px;
+}
+
+.formulario{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*#final{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.endcontacto__img{
+    margin-top: 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.comocomprar__titulo{
+    color: rgb(6, 163, 90);
+    font-size: 2.7rem;
+    font-family: 'Gentium Book Basic', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+
+
+.subtitulo{
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgb(128, 185, 157);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-top: 0px; 
+}
+
+
+
+/*ELEGIR PRODUCTO*/
+#elegirproducto{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.elegirproducto__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.elegirproducto__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+}
+
+.elegirproducto__txt{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.elegirproducto__txt--span{
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.elegirproducto__txt--enlace{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.elegirproducto__txt--enlace:hover{
+    color: rgb(0, 67, 251);
+}
+
+.elegirproducto__img{
+    width: 70px;
+    height: 70px;                 
+}
+
+.elegirproducto__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*REALIZAR PEDIDO*/
+
+#realizarpedido{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.realizarpedido__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.realizarpedido__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+}
+
+.realizarpedido__txt{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.realizarpedido__txt--enlaces{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.realizarpedido__txt--enlaces:hover{
+    color: rgb(0, 67, 251);
+}
+
+.realizarpedido__img{
+    width: 70px;
+    height: 70px;                 
+}
+
+.realizarpedido__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*COMO PAGAR*/
+
+#comopagar{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+    margin-bottom: 15px;
+}
+
+.comopagar__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comopagar__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+}
+
+.comopagar__lista{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.comopagar__img{
+    width: 70px;
+    height: 70px;                
+}
+
+.comopagar__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*RECIBIR/RETIRAR*/
+#recibiroretirar{
+    height: auto;
+    background-color: rgb(153, 218, 187);
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 60px;
+
+}
+
+.recibiroretirar__contenido{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recibiroretirar__titulo{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(9, 67, 85);
+    margin-bottom: 14px;
+    
+}
+
+.recibiroretirar__lista{
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.recibiroretirar__img{
+    width: 70px;
+    height: 70px;                 
+}
+
+.recibiroretirar__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*ZONAS DE ENVIOS*/
+
+
+
+#envioszonas__img{
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#envioszonas__img img{
+    width: 30%;
+    height: auto;
+}
+
+.envioszonas__h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    font-family: 'Gentium Book Basic', serif;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px; 
+    justify-self: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+#mediospagos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#mediospagos img{
+    width: 40%;
+    height: auto;
+}
+
+

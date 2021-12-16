@@ -1,0 +1,11 @@
+@import "./vars";
+
+.titulo {
+    color: $titulo_color;
+    font-size: $titulo_font-size;
+    font-family: $titulo_font-family;
+    text-align: $titulo_text-align;
+    letter-spacing: $titulo_letter-spacing;
+    margin-top: $titulo_margin-top;
+    margin-bottom: $titulo_margin-bottom; 
+}

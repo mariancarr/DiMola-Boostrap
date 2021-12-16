@@ -1,0 +1,25 @@
+#contacto__labels{
+    font-family: $txtGeneral_font-family;
+    font-size: 1rem;
+    color: rgb(49, 49, 49);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#endcontacto{
+
+    &__txt{
+        font-size: 1.1rem;
+        font-family: $txtGeneral_font-family;
+    }
+
+    &__img{
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+
+#btn{
+    padding: 7px 15px;
+    font-size: 1rem;
+}

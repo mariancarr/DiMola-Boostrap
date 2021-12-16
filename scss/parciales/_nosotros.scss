@@ -1,0 +1,55 @@
+
+
+#nosotros{
+    margin-top: 0px;
+
+    &__img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        transition: all 0.3s linear;
+
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+
+    &__video{
+        width: 80%;
+        height: auto;    
+    }
+
+    &__txt__span{
+        display: block;
+        font-size: 5rem;
+        color: chocolate;
+        margin-bottom: 15px;
+        font-weight: 900;
+    }
+
+    &__txt--negrita{
+        font-size: 1.2rem;
+    }
+}
+
+#endcontacto{
+    &__txt{
+        font-size: 1.1rem;
+        font-family: $txtGeneral_font-family;
+    }
+
+    &__img{
+        width: 50%;
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

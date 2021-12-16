@@ -6,51 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/productos.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../scss/main.css">
+    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="header">
         <div class="container-fluid">
-          <div class="logo">
-            <img class="logo__img" src="../images/logo-dimola.png" alt="Logo">
+          <div id="header__logo">
+            <img id="header__logo-img" src="../images/logo-dimola.png" alt="Logo">
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="btn">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center align-self-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" id="nav__links" aria-current="page" href="../index.html">Inicio</a>
-              <a class="nav-link" id="nav__links"  href="#">Productos</a>
-              <a class="nav-link" id="nav__links"  href="../pages/precios.html">Precios</a>
-              <a class="nav-link" id="nav__links"  href="../pages/como_comprar.html">¿Cómo Comprar?</a>
-              <a class="nav-link" id="nav__links"  href="../pages/nosotros.html">Nosotros </a>
-              <a class="nav-link" id="nav__links"  href="../pages/contacto.html">Contacto </a>
+            <div class="navbar-nav" id="header__nav">
+              <a class="nav-link" id="header__nav-links"  href="../index.html">Inicio</a>
+              <a class="nav-link" id="header__nav-links"  href="#">Productos</a>
+              <a class="nav-link" id="header__nav-links"  href="../pages/precios.html">Precios</a>
+              <a class="nav-link" id="header__nav-links"  href="../pages/como_comprar.html">¿Cómo Comprar?</a>
+              <a class="nav-link" id="header__nav-links"  href="../pages/nosotros.html">Nosotros </a>
+              <a class="nav-link" id="header__nav-links"  href="../pages/productos.html">Contacto </a>
             </div>
           </div>
         </div>
       </nav>
 
-    <hr class="separador color-change-4x" id="separador">
+
+    <hr class="color-change-4x" id="header__separador">
 
     <!--fin header-->
 
 
-    <h1 class="productos__titulo">BASTIDORES ENTELADOS PROFESIONALES</h1>
+    <h1 class="titulo">BASTIDORES ENTELADOS PROFESIONALES</h1>
     <div class="container justify-content-center align-items-center" id="telasLienzo">
         <div class="row">
-            <div class="col-xl-3  d-flex flex-column justify-content-center align-items-center" style="gap:20px">
-                    <img class="producto__img1y2" src="../images/productoimg1.jpg" alt="Bastidores">
-                    <img class="producto__img1y2" src="../images/productoimg2.jpg" alt="Bastidores">
-                    <img class="producto__img3" src="../images/productoimg3.jpg" alt="Lienzos">
+            <div class="col-xl-3  d-flex flex-column justify-content-center align-items-center" style="gap:20px; margin-right:35px;">
+                <img id="telasLienzo__telas__img1y2" src="../images/productoimg1.jpg" alt="Bastidores">
+                <img id="telasLienzo__telas__img1y2" src="../images/productoimg2.jpg" alt="Bastidores">
+                <img id="telasLienzo__telas__img3" src="../images/productoimg3.jpg" alt="Lienzos">
             </div>
        
 
-            <div class="col-xl-8 offset-xl-1">
-                    <h2 class="productos__subtitulo">Telas y proceso de imprimación</h2>
+            <div class="col-xl-8">
+                    <h2 id="subtitulo">Telas y proceso de imprimación</h2>
 
-                    <ul class="productos__lista">
+                    <ul id="txt__general">
                         <li> 
                             Nuestra tela es canvas 100% algodón, de <strong>excelente calidad</strong>. Trabajamos <strong>textura fina, intermedia y gruesa</strong>.
                             Durante el proceso de imprimación las telas son tratadas con reiteradas aplicaciones acrílicas y su correspondiente tratamiento anti-hongos.
@@ -65,81 +65,85 @@
                         </li>
                     </ul> 
                 
-                    <p class="productos__parrafo">
+                    <p id="telasLienzo__txt">
                         Los bastidores estandar se arman con canvas de grano fino. También realiazamos en Canvas Negro, Panamá grano medio,
                         SuperPanamá grano grueso y telas especiales como lino, yute y lienzos de colores
                     </p>
             
-            
-                <div class="tiposdelienzo">
-                    <div class="tiposdelienzo__titulo">
-                        <h2>Tipos de Lienzo</h2>
-                    </div>
-                    <div class="tiposdelienzo__produc">
-                        <div class="grano__fino">
-                            <img src="../images/grano-fino.jpg" alt="Canvas Grano Fino" width="60px" height="60px">
-                            <span class="lienzos--descripcion">
+                
+                    
+                <div class="container" id="telasLienzo__producto__lienzos" style="margin-top:100px">
+                    <h2 id="subtitulo" style="margin-bottom:40px">Tipos de Lienzo</h2>
+                    <div class="row d-flex flex-row align-items-baseline justify-content-center">
+
+                        <div class="col-xl-3  d-flex flex-column justify-content-center align-items-center" style="gap:10px">
+                            <img id="telasLienzo__producto__lienzos__img" src="../images/grano-fino.jpg" alt="Canvas Grano Fino" width="130px" height="130px">
+                            <span id="telasLienzo__producto__lienzos__descripcion">
                                 Canvas <strong>Grano Fino</strong>
                             </span>
-                            <span class="lienzos--gramos">
+                            <span id="telasLienzo__producto__lienzo__gramos">
                                 300 gramos
                             </span>
-
                         </div>
-                        <div class="grano__medio">
-                            <img src="../images/tela-panama-medio.jpg" alt="Panama Grano Medio" width="60px" height="60px">
-                            <span class="lienzos--descripcion">
+
+                        <div class="col-xl-3 d-flex flex-column justify-content-center align-items-center" id="producto__lienzos" style="gap:10px">
+                            <img id="telasLienzo__producto__lienzos__img" src="../images/tela-panama-medio.jpg" alt="Panama Grano Medio" width="130px" height="130px">
+                            <span id="telasLienzo__producto__lienzos__descripcion">
                                 Panama <strong>Grano Medio</strong>
                             </span>
-                            <span class="lienzos--gramos">
+                            <span id="telasLienzo__producto__lienzo__gramos">
                                 380 gramos
                             </span>
                         </div>
-                        <div class="grano__grueso">
-                            <img src="../images/grano-grueso.jpg" alt="Superpanama Grano Grueso" width="60px" height="60px">
-                            <span class="lienzos--descripcion">
+
+                        <div class="col-xl-3  d-flex flex-column justify-content-center align-items-center" id="producto__lienzos" style="gap:10px">
+                            <img id="telasLienzo__producto__lienzos__img" src="../images/grano-grueso.jpg" alt="Superpanama Grano Grueso" width="130px" height="130px">
+                            <span id="telasLienzo__producto__lienzos__descripcion">
                                 Superpanamá <strong>Grano Grueso</strong>
                             </span>
-                            <span class="lienzos--gramos">
+                            <span id="telasLienzo__producto__lienzos__gramos">
                                 510 gramos
                             </span>
                         </div>
-                        <div class="canvas__negro">
-                            <img src="../images/canvas-negro.jpg" alt="Canvas Negro" width="60px" height="60px">
-                            <span class="lienzos--descripcion">
+                        <div class="col-xl-3 d-flex flex-column justify-content-center align-items-center" id="producto__lienzos" style="gap:10px">
+                            <img id="telasLienzo__producto__lienzos__img" src="../images/canvas-negro.jpg" alt="Canvas Negro" width="130px" height="130px">
+                            <span id="telasLienzo__producto__lienzos__descripcion">
                                 Canvas <strong>Negro</strong>
-                            </span>
+                            </span> 
                         </div>
                     </div>
-                </div>
-                <div class="rollolienzo">
-                    <h3>Rollo de lienzo preparado para pintar</h3>
-                    <span>Disponemos de rollos de 1m, 5m y 10m por 160cm de ancho.</span>
-                </div> 
+                    <div class="row">
+                        <div class="col" id="telasLienzo__producto__lienzos__rollolienzo">
+                            <h3 id="telasLienzo__producto__lienzos__rollolienzo__titulo">Rollo de lienzo preparado para pintar</h3>
+                            <span id="telasLienzo__txt">Disponemos de rollos de 1m, 5m y 10m por 160cm de ancho.</span>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </div>
     </div>
    
 
-    <div class="container" id="molduras">
+    <div class="container justify-content-center align-items-center" id="molduras" style="margin-top: 200px;">
         <div class="row">
-            <div class="col-xl-8">
-                    <h2 class="molduras__titulo">Molduras</h2>
+            <div class="col-xl-8" style="margin-right:35px;">
+                <h2 id="subtitulo">Molduras</h2>
+                
                 <ul>
-                    <li class="molduras__lista">Molduras de pino clear con sistema Finger Joint. Las varillas no poseen nudos y son cepilladas, lo que le otorga una excelente terminación.</li>
-                        <ul class="molduras__sublista">
+                    <li id="txt__general"> <strong>Molduras de pino clear con sistema Finger Joint. Las varillas no poseen nudos y son cepilladas, lo que le otorga una excelente terminación.</strong></li>
+                        <ul id="molduras__sublista">
                             <li>
                                 Para el armado de bastidores las varillas son seleccionadas artesanalmente descartando aquellas que no son perfectamente rectas.
                             </li>
                         </ul>
-                    <li class="molduras__lista">Con reborde de media caña. Su forma redondeada eleva la tela de la varilla evitando el contacto y así impidiendo que la tela se marque.</li>
-                        <ul class="molduras__sublista">
+                    <li id="txt__general"> <strong>Con reborde de media caña. Su forma redondeada eleva la tela de la varilla evitando el contacto y así impidiendo que la tela se marque.</strong></li>
+                        <ul id="molduras__sublista">
                             <li>
                                 Las molduras en las varillas son fundamentales ya sea para el uso del bastidor para pintar o para el montaje de fotolienzo.
                             </li>
                         </ul>
-                    <li class="molduras__lista">Los bastidores están firmemente encolados y engrampados otorgándoles rigidez y resistencia. Al ser fijos la escuadra se mantiene perfecta a 45 grados.</li>
-                        <ul class="molduras__sublista">
+                    <li id="txt__general"><strong>Los bastidores están firmemente encolados y engrampados otorgándoles rigidez y resistencia. Al ser fijos la escuadra se mantiene perfecta a 45 grados.</strong></li>
+                        <ul id="molduras__sublista">
                             <li>
                                 Con travesaños de refuerzo para bastidores de más de 80cm de ancho.
                             </li>
@@ -147,27 +151,27 @@
                                 Los tipos de varillas que trabajamos son: Estandar, Semi Cajón, Box y Super Box.
                             </li>
                         </ul>
-                    <li class="molduras__lista">La tela se engrampa por detrás del bastidor permitiendo pintar libremente los laterales.</li>
+                    <li id="txt__general"><strong>La tela se engrampa por detrás del bastidor permitiendo pintar libremente los laterales.</strong></li>
                 </ul>
             </div>  
-            <div class="col-xl-4" id="molduras__imgs">
-                <img class="molduras__img1" src="../images/molduras-varillas.jpg" alt="Molduras Varillas" >
-                <img class="molduras__img2"src="../images/molduras.jpg" alt="Molduras" >   
+            <div class="col-xl-3" id="molduras__imgs">
+                <img id="molduras__imgs__img1" src="../images/molduras-varillas.jpg" alt="Molduras Varillas" >
+                <img id="molduras__imgs__img2"src="../images/molduras.jpg" alt="Molduras" >   
             </div>
         </div>
     </div>
 
-    <div class="container" id="medidas">
+    <div class="container justify-content-center align-items-center" id="medidas" style="margin-top: 200px;">
         <div class="row">
-            <div class="col-xl-3" id="medidas__img">
-                <img src="../images/especial.jpg" alt="Bastidor Hexagonal" >
-                <img src="../images/especial2.jpg" alt="Bastidor Medida especial" >
+            <div class="col-xl-4" id="medidas__img" style="margin-right:35px;">
+                <img id="medidas__img__1y2" src="../images/especial.jpg" alt="Bastidor Hexagonal" >
+                <img id="medidas__img__1y2"  src="../images/especial2.jpg" alt="Bastidor Medida especial" >
             </div>
-            <div class="col-xl-7 offset-xl-1" id="medidas__txt">
+            <div class="col-xl-7" id="medidas__txt">
                 
-                    <h3 class="medidas__titulo">Medidas estándar o a pedido</h3>
+                <h2 id="subtitulo">Medidas estándar o a pedido</h2>
                 
-                <ul class="medidas__lista">
+                <ul id="txt__general">
                     <li><strong>Tenemos</strong> stock permanente de bastidores con o sin tela de medidas estándar.</li>
                     <li><strong>Realizamos</strong>a pedido medidas especiales en los distintos tipos de varillas que disponemos.</li>
                     <li><strong>Para</strong> bastidores de gran formato que tengan a partir de 130cm del lado más chico, sugerimos realizarlos en varilla Box o SuperBox.</li>
@@ -179,16 +183,16 @@
         
             
 
-    <div class="container-fluid p-3" style="margin-top:200px" id="footer">
+    <div class="container-fluid p-3" style="margin-top:80px" id="footer">
         <div class="row">
             <div class="col-xl-4 d-flex  justify-content-around align-items-center text-center">
                 <ul class="list-unstyled" id="footer__nav">  
-                    <li><a href="../index.html">Inicio</a></li>     
-                    <li><a href="../pages/precios.html">Precios</a></li>
-                    <li><a href="../pages/como_comprar.html">¿Cómo Comprar?</a></li>
-                    <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <li id="footer__nav__li"><a href="../index.html" id="footer__nav__a">Inicio</a></li>     
+                    <li id="footer__nav__li"><a href="../pages/precios.html" id="footer__nav__a">Precios</a></li>
+                    <li id="footer__nav__li"><a href="../pages/como_comprar.html" id="footer__nav__a">¿Cómo Comprar?</a></li>
+                    <li id="footer__nav__li"><a href="../pages/nosotros.html" id="footer__nav__a">Nosotros</a></li>
+                    <li id="footer__nav__li"><a href="../pages/contacto.html" id="footer__nav__a">Contacto</a></li>
+                    <li id="footer__nav__li"><a href="#" id="footer__nav__a">Productos</a></li>
                 </ul> 
             </div>
             <div class="col-xl-4 d-flex  justify-content-around align-items-center text-center" id="footer__p">
@@ -198,32 +202,32 @@
                 <p>Los pedidos se realizan con acuerdo previo</p>
             </div>
             <div class="col-xl-4 d-flex flex-column justify-content-around align-items-center text-center">
-                <div class="footer__redes__insta">
-                    <a  href="https://www.instagram.com/dimolabastidores/" target="blank"> 
-                         <img  src="./images/instafooter.png"  alt="Instagram" width="27px" height="27px"></a>
+                <div id="footer__redes">
+                    <a id="footer__redes__a" href="https://www.instagram.com/dimolabastidores/" target="blank"> 
+                         <img id="footer__redes__img" src="../images/instafooter.png"  alt="Instagram" width="32px" height="32px"></a>
 
                 </div>  
 
-                <div class="footer__redes__face">       
-                    <a href="https://www.facebook.com/dimolabastidores/" target="blank"> 
-                        <img  src="./images/facebookfooter.png"  alt="Facebook" width="30px" height="30px"></a> 
+                <div id="footer__redes">       
+                    <a id="footer__redes__a"href="https://www.facebook.com/dimolabastidores/" target="blank"> 
+                        <img id="footer__redes__img" src="../images/facebookfooter.png"  alt="Facebook" width="39px" height="39px"></a> 
                 </div> 
 
-                <div class="footer__redes__mail">      
-                    <a href="mailto: info@dimolabastidores.com.ar" target="blank"> 
-                        <img  src="./images/mailfooter.png" alt="Mail" width="27px" height="27px"></a> 
+                <div id="footer__redes">      
+                    <a id="footer__redes__a" href="mailto: info@dimolabastidores.com.ar" target="blank"> 
+                        <img id="footer__redes__img" src="../images/mailfooter.png" alt="Mail" width="33px" height="33px"></a> 
                 </div>
 
-                <div class="footer__redes__whatsapp">      
-                    <a href="https://api.whatsapp.com/send?phone=541131632794&text=" target="blank"> 
-                        <img  src="./images/whatsappfoot.png" alt="Whatsapp" width="30px" height="30px"></a>
+                <div id="footer__redes">      
+                    <a id="footer__redes__a" href="https://api.whatsapp.com/send?phone=541131632794&text=" target="blank"> 
+                        <img id="footer__redes__img" src="../images/whatsappfoot.png" alt="Whatsapp" width="37px" height="37px"></a>
                 </div>
             </div>
         </div>
     </div> 
     
     <div class="container-fluid text-center" id="footer__end">
-        <p>&copy DIMOLA Bastidores <span class="footer__end--weak"> ♦ Buenos Aires, Argentina 2021 ♦ by Mariano Carrillo </span> </p>
+        <p id="footer__end__p">&copy DIMOLA Bastidores <span class="footer__end__span"> ♦ Buenos Aires, Argentina 2021 ♦ by Mariano Carrillo </span> </p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+#comocomprar__pasos{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    &__enlace{
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: black;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            color: rgb(0, 67, 251);
+        }
+    }
+
+    &__titulos{
+        font-size: 1.4rem;
+        color: rgb(0, 0, 0);
+        border-bottom: solid 2px rgb(9, 67, 85);
+        margin-bottom: 14px;
+    }
+
+    &__txt{
+        font-size: 1.2rem;
+        color: black;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    &__img{
+        width: 20%;
+        height: auto; 
+        
+        &__all{
+            width: 60%;
+            height: auto;
+        }
+    }
+
+    &__lista{
+        font-size: 1.2rem;
+        color: black;
+        font-family: 'Ubuntu', sans-serif; 
+    }
+    
+    &__contenedores{
+        height: auto;
+        background-color: rgb(153, 218, 187);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center; 
+        gap: 25px;
+        padding: 15px;
+        margin-bottom: 25px;
+
+        &__contenido{
+            flex-basis: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            &__txt--span{
+                font-size: 1.1rem;
+                font-family: 'Ubuntu', sans-serif;
+                text-align: center;
+            }
+
+
+        }
+    }
+}
+
+#envioszonas{
+    margin-top: 100px;
+
+    &__img{
+        margin-top: 40px;
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    
+        &__1y2{
+            width: 30%;
+            height: auto;
+        }
+    }   
+}
+
+#mediospagos{
+    text-align: center;
+    margin-top: 150px;
+
+    &__img{
+        width: 50%;
+        height: auto;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
