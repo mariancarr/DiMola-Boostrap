@@ -1,12 +1,10 @@
 @import "./vars";
 
-#txt__general{
+#texto{
     padding: $txtGeneral_padding;
     font-family: $txtGeneral_font-family;
     font-size: $txtGeneral_font-size;
     line-height: $txtGeneral_line-height;
-    color: $txtGeneral_color;
     text-align: $txtGeneral_text-align;
-    list-style-position: $listas_style-position;
-    
+    list-style-position: $listas_style-position;  
 }

@@ -2,23 +2,8 @@
 
 #nosotros{
     margin-top: 0px;
-
-    &__img{
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-        transition: all 0.3s linear;
-
-        &:hover{
-            opacity: 0.6;
-        }
-    }
-
-    &__video{
-        width: 80%;
-        height: auto;    
-    }
-
+    
+    
     &__txt__span{
         display: block;
         font-size: 5rem;
@@ -44,7 +29,26 @@
     }
 }
 
+#carouselExampleIndicators{
+    width: 95%;
+    height: auto;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150) ;
+}
 
+#carousel-img{
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.4s linear;
+}
+
+#carousel-img:hover{
+   opacity: 0.8;
+}
+
+#carousel-vid{
+    width: 100%;
+    height: 100%;
+}
 
 
 

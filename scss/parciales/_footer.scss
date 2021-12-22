@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
 
 
 #footer{
@@ -13,9 +14,9 @@
     
         &__a{
             text-decoration: none;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: 'Halant', serif;
             transition: all 0.3s ease-in;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             font-weight: 800;
             color: rgb(0, 0, 0);
     
@@ -35,12 +36,13 @@
         margin-left: 0px;
         margin-right: 0px;
         line-height: 1;
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: rgb(0, 0, 0);
-        font-family: 'Inter', sans-serif;
+        font-family: 'Halant', serif;
         border-right: solid 2px rgb(101, 144, 151);
         border-left: solid 2px rgb(101, 144, 151); 
         text-align: center; 
+        
     }
 
 
@@ -49,11 +51,15 @@
     }
 
     &__redes__img{
-        transition: all  0.2s ease-out; 
+        transition: all  0.25s linear; 
+        color: black;
+        height: 27px;
+        width: 27px;
         
         &:hover{
             transform: scale(1.2);
             opacity: 1;
+            color: rgb(255, 233, 233);     
     }
     }
     

@@ -7,20 +7,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,8 +23,35 @@
           box-sizing: border-box;
 }
 
-.titulo {
+#titulo {
   color: #06a35a;
+}
+
+#subtitulo {
+  color: #349934;
+}
+
+#texto {
+  color: #111111;
+}
+
+#flex-row-center, #precios__bastidores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#titulo {
   font-size: 2.5rem;
   font-family: "Gentium Book Basic", serif;
   text-align: center;
@@ -38,8 +60,35 @@
   margin-bottom: 60px;
 }
 
+#titulo {
+  color: #06a35a;
+}
+
 #subtitulo {
   color: #349934;
+}
+
+#texto {
+  color: #111111;
+}
+
+#flex-row-center, #precios__bastidores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#subtitulo {
   font-size: 1.5rem;
   margin-bottom: 15px;
   font-family: "Ubuntu", sans-serif;
@@ -302,12 +351,12 @@
 }
 
 #header__logo {
-  width: 150px;
+  width: 30%;
   height: auto;
 }
 
 #header__logo-img {
-  width: 90%;
+  width: 30%;
   height: auto;
 }
 
@@ -344,10 +393,10 @@
 
 #footer__nav__a {
   text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Halant', serif;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 800;
   color: black;
 }
@@ -370,9 +419,9 @@
   margin-left: 0px;
   margin-right: 0px;
   line-height: 1;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: black;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Halant', serif;
   border-right: solid 2px #659097;
   border-left: solid 2px #659097;
   text-align: center;
@@ -383,14 +432,18 @@
 }
 
 #footer__redes__img {
-  -webkit-transition: all  0.2s ease-out;
-  transition: all  0.2s ease-out;
+  -webkit-transition: all  0.25s linear;
+  transition: all  0.25s linear;
+  color: black;
+  height: 27px;
+  width: 27px;
 }
 
 #footer__redes__img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 1;
+  color: #ffe9e9;
 }
 
 #footer__end {
@@ -709,16 +762,29 @@
   background-color: #881313;
 }
 
-#index__nav {
+#index__nav, #index__nav__1, #index__nav__2 {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   height: 20vh;
   -webkit-box-shadow: 0px 0px 10px 0px #444444;
           box-shadow: 0px 0px 10px 0px #444444;
+  margin-bottom: 30px;
 }
 
-#index__nav:hover {
-  background-color: rgba(218, 248, 215, 0.657);
+#index__nav__1 {
+  background-color: #eef7ff;
+}
+
+#index__nav__1:hover {
+  background-color: #daf3fd;
+}
+
+#index__nav__2 {
+  background-color: #ecfcec;
+}
+
+#index__nav__2:hover {
+  background-color: #dbffe0;
 }
 
 #index__nav__texto {
@@ -732,6 +798,13 @@
 
 #index__nav__texto:hover {
   color: #349c34;
+}
+
+#index__subtitulos {
+  font-size: 1.7rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 #index__pedidos {
@@ -778,30 +851,57 @@
   opacity: 0.8;
 }
 
-#index__pasos__span3 {
-  color: #2e7c8a;
+#pasos__span, #pasos__span--1, #pasos__span--2, #pasos__span--3 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.3rem;
+  text-align: center;
 }
 
-#index__pasos__span2 {
-  color: #317a2e;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.3rem;
-}
-
-#index__pasos__span1 {
+#pasos__span--1 {
   color: #929018;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.3rem;
 }
 
-#txt__general {
+#pasos__span--2 {
+  color: #317a2e;
+}
+
+#pasos__span--3 {
+  color: #2e7c8a;
+}
+
+#titulo {
+  color: #06a35a;
+}
+
+#subtitulo {
+  color: #349934;
+}
+
+#texto {
+  color: #111111;
+}
+
+#flex-row-center, #precios__bastidores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#texto {
   padding: 0px;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.1rem;
   line-height: 2;
-  color: #111111;
   text-align: justify;
   list-style-position: inside;
 }
@@ -916,25 +1016,25 @@
   margin-top: 200px;
 }
 
-#medidas__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 5px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#carouselExampleControls {
+  width: 60%;
+  -webkit-box-shadow: 5px 5px 5px #969696;
+          box-shadow: 5px 5px 5px #969696;
 }
 
-#medidas__img__1y2 {
-  width: 50%;
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+#precios__bastidores {
+  width: 100%;
+  height: 100%;
+}
+
+#precios__bastidores__img {
+  width: 75%;
   height: auto;
-  -webkit-box-shadow: 10px 10px 8px #b5bdc3;
-          box-shadow: 10px 10px 8px #b5bdc3;
-  border-radius: 3px;
 }
 
 #comocomprar__pasos {
@@ -1072,23 +1172,6 @@
   margin-top: 0px;
 }
 
-#nosotros__img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-#nosotros__img:hover {
-  opacity: 0.6;
-}
-
-#nosotros__video {
-  width: 80%;
-  height: auto;
-}
-
 #nosotros__txt__span {
   display: block;
   font-size: 5rem;
@@ -1111,6 +1194,29 @@
   margin-top: 25px;
 }
 
+#carouselExampleIndicators {
+  width: 95%;
+  height: auto;
+  -webkit-box-shadow: 5px 5px 5px #969696;
+          box-shadow: 5px 5px 5px #969696;
+}
+
+#carousel-img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.4s linear;
+  transition: opacity 0.4s linear;
+}
+
+#carousel-img:hover {
+  opacity: 0.8;
+}
+
+#carousel-vid {
+  width: 100%;
+  height: 100%;
+}
+
 #contacto__labels {
   font-family: "Ubuntu", sans-serif;
   font-size: 1rem;
@@ -1129,8 +1235,32 @@
   margin-top: 30px;
 }
 
-#btn {
+#btn, #btn--enviar, #btn--reset {
   padding: 7px 15px;
   font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#btn--enviar {
+  background-color: #0d6efd;
+  color: black;
+}
+
+#btn--enviar:hover {
+  background-color: #0959cf;
+}
+
+#btn--reset {
+  background-color: #ff3815;
+  color: white;
+  margin-left: 20px;
+}
+
+#btn--reset:hover {
+  background-color: #ad2710;
 }
 /*# sourceMappingURL=main.css.map */

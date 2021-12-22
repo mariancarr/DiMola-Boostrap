@@ -1,0 +1,13 @@
+#precios__bastidores{
+    @extend #flex-row-center; 
+    width: 100%;
+    height: 100%;
+    &__img{
+        width: 75%;
+        height: auto;
+    }
+}
+
+
+
+

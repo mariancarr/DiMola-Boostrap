@@ -1,23 +1,16 @@
 #medidas{
     margin-top: 200px;
-
-    &__img{
-        display: flex;
-        
-        gap: 5px;
-        justify-content: center;
-        align-items:center; 
-
-        &__1y2{
-            width: 50%;
-            height: auto;
-            box-shadow: 10px 10px 8px rgb(181, 189, 195);
-            border-radius: 3px;
-        } 
-        
-    }
 }
 
+#carouselExampleControls{
+    width: 60%;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150) ;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
