@@ -2,6 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/*Medias responsive tamaños*/
+@mixin xxl{
+    @media screen and (min-width:1400px){
+        @content;
+    }
+}
+
+@mixin xl{
+    @media screen and (min-width:1200px) and (max-width:1399px){
+        @content;
+    }
+}
+
+@mixin lg{
+    @media screen and (min-width:992px) and (max-width:1199px){
+        @content;
+    }
+}
+
+@mixin md{
+    @media screen and (min-width:768px) and (max-width:991px){
+        @content;
+    }
+}
+
+@mixin sm{
+    @media screen and (min-width:576px) and (max-width:767px){
+        @content;
+    }
+}
+
+@mixin xs{
+    @media screen and (max-width:575px){
+        @content;
+    }
+}
+
 
 $titulo_font-size: 2.5rem;
 $titulo_font-family: 'Gentium Book Basic', serif;
@@ -46,6 +83,8 @@ $colors: (
     align-items: center;
 }
 
+
+
 #flex-row-center{
     @include flex-row-center;
 }
@@ -57,5 +96,7 @@ $estilos: (
     center: center,
     mbot30: 30px,
 )
+
+
 
 

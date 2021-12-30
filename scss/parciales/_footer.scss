@@ -8,6 +8,18 @@
 
     &__nav{
         list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content:around;
+        align-items:center;
+        text-align: center;
+
+        @include md{
+            justify-content: center;
+            flex-direction: row;
+            gap: 30px;
+        }
+
         &__li{
             margin-top: 5px;
         }
@@ -42,12 +54,95 @@
         border-right: solid 2px rgb(101, 144, 151);
         border-left: solid 2px rgb(101, 144, 151); 
         text-align: center; 
-        
     }
 
+    &__container__redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
 
-    &__redes__a{
-            text-decoration: none;
+        @include lg{
+            justify-content:space-evenly;
+            gap:0px;
+        }
+
+        @include md{
+            flex-direction: row;
+            justify-content: center;
+            gap: 70px;
+            margin-top: 35px;
+        }
+
+        @include sm{
+            flex-direction: row;
+            gap: 35px;
+            margin-top: 25px;
+        }
+
+        @include xs{
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 25px;
+        }
+
+        
+    }
+    &__redes__img{
+        transition: all  0.6s linear; 
+        color: black;
+        height: 27px;
+        width: 27px;
+        
+    
+    
+        &:hover{
+            transform: rotate(360deg);
+            opacity: 1;     
+        }
+    }
+    
+    
+    
+    &__redes__insta{
+        @extend #footer__redes__img;
+    
+        &:hover{
+            @extend #footer__redes__img:hover;
+            color: rgb(216, 0, 162);     
+        }
+    }
+    
+    
+    
+    &__redes__face{
+        @extend #footer__redes__img;
+    
+        &:hover{
+            @extend #footer__redes__img:hover;
+            color: rgb(2, 41, 168);     
+        }
+    }
+    
+    
+    
+    &__redes__mail{
+        @extend #footer__redes__img;
+    
+        &:hover{
+            @extend #footer__redes__img:hover;
+            color: rgb(0, 215, 253);     
+        }
+    }
+    
+    &__redes__wpp{
+        @extend #footer__redes__img;
+    
+        &:hover{
+            @extend #footer__redes__img:hover;
+            color: rgb(0, 255, 34);     
+        }
     }
 
    
@@ -58,80 +153,19 @@
         width: 100%;
         height: auto;
         margin-bottom: 0px;
+        font-size: 0.8rem;
+    
 
         &__p{
-            font-size: 0.8rem;
             word-spacing: 2px;
             color:rgb(0, 0, 0);
             margin-bottom: 0px;
         }
 
-        &__span{
-            opacity: 0.3;
-            font-weight: 200;
+        &__span{ 
+            color: rgba(71, 71, 71, 0.459);
+            font-weight: lighter;
+            
         }
     }
 }
-
-
-
-
-#footer__redes__img{
-    transition: all  0.25s linear; 
-    color: black;
-    height: 27px;
-    width: 27px;
-
-    &:hover{
-        transform: scale(1.2);
-        opacity: 1;     
-    }
-}
-
-
-
-#footer__redes__insta{
-    @extend #footer__redes__img;
-}
-
-#footer__redes__insta:hover{
-    @extend #footer__redes__img:hover;
-    color: rgb(192, 0, 144);     
-}
-
-#footer__redes__face{
-    @extend #footer__redes__img;
-}
-
-#footer__redes__face:hover{
-    @extend #footer__redes__img:hover;
-    color: rgb(3, 0, 185);     
-}
-
-#footer__redes__mail{
-    @extend #footer__redes__img;
-}
-
-#footer__redes__mail:hover{
-    @extend #footer__redes__img:hover;
-    color: rgb(0, 215, 253);     
-}
-
-#footer__redes__wpp{
-    @extend #footer__redes__img;
-}
-
-#footer__redes__wpp:hover{
-    @extend #footer__redes__img:hover;
-    color: rgb(0, 255, 34);     
-}
-
-
-
-
-
-
-
-
-
-

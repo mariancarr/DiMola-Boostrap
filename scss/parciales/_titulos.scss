@@ -7,4 +7,14 @@
     letter-spacing: $titulo_letter-spacing;
     margin-top: $titulo_margin-top;
     margin-bottom: $titulo_margin-bottom; 
+
+    @include xs{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    @include sm{
+        margin-top: 65px;
+        margin-bottom: 40px;
+    }
 }
