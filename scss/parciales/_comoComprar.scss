@@ -37,13 +37,10 @@
 }
 
 #comocomprar__pasos{
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+    padding: 5px;
 
     @include xs{
-        gap: 20px;
+        
     }
 
     @include sm{
@@ -52,6 +49,56 @@
 
     @include md{
         gap:30px;
+    }
+
+    &__lista{
+        font-size: 1.2rem;
+        color: black;
+        font-family: 'Ubuntu', sans-serif;
+
+        @include xs{
+            font-size: 1.1rem; 
+        }
+    }
+    
+    &__contenedores{
+        height: auto;
+        background-color: rgb(153, 218, 187);
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center; 
+        gap: 25px;
+        padding: 15px;
+        margin-bottom: 25px;
+
+        @include xs{
+            padding: 10px;
+            margin: 15px 2px;
+            flex-direction: column-reverse;
+            gap: 10px;
+            margin-bottom: 0px;
+        }
+        
+
+        &__contenido{
+            flex-basis: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            &__txt--span{
+                font-size: 1.1rem;
+                font-family: 'Ubuntu', sans-serif;
+                text-align: center;
+
+                @include xs{
+                    font-size: 1rem; 
+                }
+            }
+        }
     }
 
     &__enlace{
@@ -105,56 +152,7 @@
             }
 
             @include md{
-                width: 65%;
-            }
-        }
-    }
-
-    &__lista{
-        font-size: 1.2rem;
-        color: black;
-        font-family: 'Ubuntu', sans-serif;
-
-        @include xs{
-            font-size: 1.1rem; 
-        }
-    }
-    
-    &__contenedores{
-        height: auto;
-        background-color: rgb(153, 218, 187);
-        border-radius: 25px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center; 
-        gap: 25px;
-        padding: 15px;
-        margin-bottom: 25px;
-
-        @include xs{
-            margin: 15px 15px;
-            flex-direction: column;
-            gap: 10px;
-            margin-bottom: 0px;
-        }
-        
-
-        &__contenido{
-            flex-basis: 70%;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-
-            &__txt--span{
-                font-size: 1.1rem;
-                font-family: 'Ubuntu', sans-serif;
-                text-align: center;
-
-                @include xs{
-                    font-size: 1rem; 
-                }
+                width: 60%;
             }
         }
     }
@@ -179,6 +177,12 @@
         @include sm{
             gap:20px;
         }
+
+        @include md{
+            margin-left: 10px;
+            margin-right: 10px;
+            gap:20px;
+        }
     
         &__1y2{
             width: 30%;
@@ -189,6 +193,10 @@
             }
 
             @include sm{
+                width: 50%;
+            }
+
+            @include md{
                 width: 50%;
             }
         }
@@ -203,6 +211,10 @@
         margin-top: 80px;
     }
 
+    @include sm{
+        margin-top: 80px;
+    }
+
     &__img{
         width: 50%;
         height: auto;
@@ -213,6 +225,10 @@
 
         @include sm{
             width: 90%;
+        }
+
+        @include md{
+            width: 70%;
         }
     } 
 }

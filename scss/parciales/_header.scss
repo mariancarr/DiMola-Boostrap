@@ -39,21 +39,36 @@
         font-family: 'Zen Kaku Gothic Antique', sans-serif;
         padding: 5px 10px;
         margin-left: 10px;
-        transition: background-color 0.3s linear;
-        
-        transition: transform 0.3s linear;
-       
-
+        transition: all 0.3s linear;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        text-decoration: none;
+    
         @include lg{
+            margin-left: 10px;
             padding: 5px 5px;
             font-size: 1.2;
         }
+
         &:hover{
-            background-color:rgba(94, 129, 138, 0.555); 
+            background-color:rgba(106, 146, 156, 0.507); 
             border-radius: 6px;
-            transform: scale(0.9);
-            color: rgb(0, 255, 255);
-            font-weight: 600;
+            
+        }
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: rgb(0, 255, 149);
+            transition: left 0.2s ease-in-out;
+        }
+
+        &:hover:after{
+            left: 0;
         }
     }
 

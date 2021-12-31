@@ -6,6 +6,10 @@
 #footer{
     background-color: rgb(135, 180, 190);
 
+    &__row{
+        justify-content: center;
+    }
+
     &__nav{
         list-style: none;
         display: flex;
@@ -42,6 +46,8 @@
     &__p{
         display: flex;
         flex-direction: column;
+        justify-content:center;
+        align-items:center;
         padding: 0px 10px;
         margin-top: 25px;
         margin-bottom: 5px;
@@ -54,6 +60,25 @@
         border-right: solid 2px rgb(101, 144, 151);
         border-left: solid 2px rgb(101, 144, 151); 
         text-align: center; 
+
+        @include md{
+            width: auto;
+            padding: 10px 0px;
+            border-right: none;
+            border-left: none; 
+            border-top: dashed 2px rgb(101, 144, 151);
+            border-bottom: dashed 2px rgb(101, 144, 151);
+        }
+
+        @include xs{
+            margin-top: 10px;
+            width: auto;
+            padding: 10px 0px;
+            border-right: none;
+            border-left: none; 
+            border-top: dashed 2px rgb(101, 144, 151);
+            border-bottom: dashed 2px rgb(101, 144, 151);
+        }
     }
 
     &__container__redes{
@@ -90,19 +115,16 @@
         
     }
     &__redes__img{
-        transition: all  0.6s linear; 
+        transition: all  0.25s linear; 
         color: black;
         height: 27px;
         width: 27px;
-        
-    
-    
+
         &:hover{
-            transform: rotate(360deg);
+            transform: scale(1.2);
             opacity: 1;     
         }
     }
-    
     
     
     &__redes__insta{
