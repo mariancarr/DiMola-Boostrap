@@ -555,11 +555,26 @@
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   #footer__p {
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 10px;
     width: auto;
-    padding: 10px 0px;
+    padding: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: dashed 2px #659097;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #footer__p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: auto;
+    padding: 10px;
     border-right: none;
     border-left: none;
     border-top: dashed 2px #659097;
@@ -1010,6 +1025,34 @@
   margin-bottom: 30px;
 }
 
+#container__pedidos {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 575px) {
+  #container__pedidos {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #container__pedidos {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #container__pedidos {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #container__pedidos {
+    margin-top: 100px;
+  }
+}
+
 #index__pedidos {
   height: 22vh;
   padding: 10px;
@@ -1042,6 +1085,34 @@
   opacity: 0.7;
 }
 
+#index__pasos {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 575px) {
+  #index__pasos {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #index__pasos {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #index__pasos {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #index__pasos {
+    margin-top: 130px;
+  }
+}
+
 #index__pasos__img {
   margin-top: 20px;
   width: 130px;
@@ -1058,6 +1129,12 @@
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.3rem;
   text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  #pasos__span, #pasos__span--1, #pasos__span--2, #pasos__span--3 {
+    font-size: 1.2rem;
+  }
 }
 
 #pasos__span--1 {
@@ -1305,6 +1382,20 @@
 
 #comocomprar__pasos {
   padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width: 575px) {
+  #comocomprar__pasos {
+    gap: 15px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -1351,7 +1442,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 25px;
-  padding: 15px;
+  padding: 25px;
   margin-bottom: 25px;
 }
 

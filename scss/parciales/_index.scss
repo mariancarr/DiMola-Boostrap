@@ -9,7 +9,7 @@
     &:hover{
         background-color: rgba(218, 248, 215, 0.657);
     }
-   
+
 
     &__texto{
         text-decoration: none;
@@ -31,6 +31,25 @@
     margin-bottom: map-get($estilos, mbot30);
 }
 
+#container__pedidos{
+    margin-top: 150px;
+
+    @include xs{
+        margin-top: 70px;
+    }
+
+    @include sm{
+        margin-top: 80px;
+    }
+
+    @include md{
+        margin-top: 70px;
+    }
+
+    @include lg{
+        margin-top: 100px;
+    }
+}
 
 #index__pedidos{
     height: 22vh;
@@ -63,9 +82,25 @@
 }
 
 
-
 #index__pasos{
+    margin-top: 200px;
+    @include xs{
+        margin-top: 100px;
+    }
+
+    @include sm{
+        margin-top: 100px;
+    }
+
+    @include md{
+        margin-top: 100px;
+    }
+
+    @include lg{
+        margin-top: 130px;
+    }
     
+
     &__img{
         margin-top: 20px;
         width: 130px;
@@ -81,6 +116,10 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
     text-align: center;
+
+    @include xs{
+        font-size: 1.2rem
+    }
 }
 
 #pasos__span--1{

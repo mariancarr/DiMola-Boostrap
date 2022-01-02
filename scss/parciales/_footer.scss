@@ -70,10 +70,24 @@
             border-bottom: dashed 2px rgb(101, 144, 151);
         }
 
-        @include xs{
+        @include sm{
+            margin-left: 5px;
+            margin-right: 5px;
             margin-top: 10px;
             width: auto;
-            padding: 10px 0px;
+            padding: 10px;
+            border-right: none;
+            border-left: none; 
+            border-top: dashed 2px rgb(101, 144, 151);
+            
+        }
+
+        @include xs{
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 10px;
+            width: auto;
+            padding: 10px;
             border-right: none;
             border-left: none; 
             border-top: dashed 2px rgb(101, 144, 151);

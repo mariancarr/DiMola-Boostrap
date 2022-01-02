@@ -38,9 +38,12 @@
 
 #comocomprar__pasos{
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 
     @include xs{
-        
+        gap: 15px;
     }
 
     @include sm{
@@ -71,7 +74,7 @@
         justify-content: center;
         align-items: center; 
         gap: 25px;
-        padding: 15px;
+        padding: 25px;
         margin-bottom: 25px;
 
         @include xs{
