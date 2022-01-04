@@ -7,4 +7,10 @@
     line-height: $txtGeneral_line-height;
     text-align: $txtGeneral_text-align;
     list-style-position: $listas_style-position;  
+
+    @include xs{
+        text-align: left;
+        padding: 10px;
+        font-size: 1rem;
+    }
 }

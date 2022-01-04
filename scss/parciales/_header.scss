@@ -6,6 +6,7 @@
     background-color: rgb(114, 155, 165);
     padding: 10px;
     margin-bottom: 0px;
+
     
     &__logo{
         margin-left: 70px;
@@ -78,6 +79,22 @@
         border: none;
       }
             
+}
+
+#btn__header{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+
+
+#btn{
+    border:none;
+   
+    &:hover{
+        border: none;
+        color:  rgb(114, 155, 165);
+    }
 }
 
 

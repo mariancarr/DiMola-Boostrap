@@ -9,13 +9,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 * {
   margin: 0;
@@ -66,6 +66,8 @@
   #titulo {
     margin-top: 50px;
     margin-bottom: 30px;
+    padding: 15px;
+    font-size: 2.2rem;
   }
 }
 
@@ -457,6 +459,20 @@
   border: none;
 }
 
+#btn__header {
+  font-size: 2rem;
+  color: white;
+}
+
+#btn, #btn--enviar, #btn--reset {
+  border: none;
+}
+
+#btn:hover, #btn--enviar:hover, #btn--reset:hover {
+  border: none;
+  color: #729ba5;
+}
+
 #footer {
   background-color: #87b4be;
 }
@@ -693,6 +709,52 @@
 #footer__end__span {
   color: rgba(71, 71, 71, 0.459);
   font-weight: lighter;
+}
+
+/*Medias responsive tamaños*/
+#titulo {
+  color: #06a35a;
+}
+
+#subtitulo {
+  color: #349934;
+}
+
+#texto {
+  color: #111111;
+}
+
+#flex-row-center, #precios__bastidores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#texto {
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+  text-align: justify;
+  list-style-position: inside;
+}
+
+@media screen and (max-width: 575px) {
+  #texto {
+    text-align: left;
+    padding: 10px;
+    font-size: 1rem;
+  }
 }
 
 .color-change-4x {
@@ -952,6 +1014,12 @@
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 575px) {
+  #hero {
+    padding: 0px 15px;
+  }
+}
+
 #hero__container {
   width: 100%;
   height: 100%;
@@ -969,10 +1037,29 @@
   margin-bottom: 5px;
 }
 
+@media screen and (max-width: 575px) {
+  #hero__titulo {
+    font-size: 1.3rem;
+  }
+}
+
 #hero__subtitulo {
   font-size: 2.5rem;
   font-family: 'Dancing Script', cursive;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  #hero__subtitulo {
+    font-size: 2rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #hero__subtitulo {
+    color: white;
+  }
 }
 
 #hero__btn {
@@ -986,6 +1073,13 @@
   margin-top: 5px;
   border-radius: 10px;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 575px) {
+  #hero__btn {
+    font-size: 1.1rem;
+    padding: 8px 14px;
+  }
 }
 
 #hero__btn:hover {
@@ -1149,42 +1243,48 @@
   color: #2e7c8a;
 }
 
-/*Medias responsive tamaños*/
-#titulo {
-  color: #06a35a;
+.btn-toggler-icon {
+  height: 2px;
+  width: 25px;
+  margin: 5px 0px;
+  background-color: white;
 }
 
-#subtitulo {
-  color: #349934;
-}
-
-#texto {
-  color: #111111;
-}
-
-#flex-row-center, #precios__bastidores {
+#telasLienzo__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
 }
 
-#texto {
-  padding: 0px;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1.1rem;
-  line-height: 2;
-  text-align: justify;
-  list-style-position: inside;
+@media screen and (max-width: 575px) {
+  #telasLienzo__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #telasLienzo__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 #telasLienzo__txt {
@@ -1193,14 +1293,76 @@
   text-align: center;
 }
 
+@media screen and (max-width: 575px) {
+  #telasLienzo__txt {
+    font-size: 1rem;
+    color: #464646;
+  }
+}
+
 #telasLienzo__telas__img1y2 {
   width: 100%;
   height: auto;
 }
 
+@media screen and (max-width: 575px) {
+  #telasLienzo__telas__img1y2 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #telasLienzo__telas__img1y2 {
+    width: 35%;
+  }
+}
+
 #telasLienzo__telas__img3 {
   width: 90%;
   height: auto;
+}
+
+@media screen and (max-width: 575px) {
+  #telasLienzo__telas__img3 {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #telasLienzo__telas__img3 {
+    width: 30%;
+  }
+}
+
+#telasLienzo__producto__lienzos__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 575px) {
+  #telasLienzo__producto__lienzos__row {
+    gap: 45px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #telasLienzo__producto__lienzos__row {
+    gap: 45px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 #telasLienzo__producto__lienzos__img {
@@ -1211,6 +1373,20 @@
           box-shadow: 2px 2px 5px #94bbdd;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 575px) {
+  #telasLienzo__producto__lienzos__img {
+    width: 60%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #telasLienzo__producto__lienzos__img {
+    width: 90%;
+  }
 }
 
 #telasLienzo__producto__lienzos__img:hover {
@@ -1243,6 +1419,19 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width: 575px) {
+  #telasLienzo__producto__lienzos__rollolienzo {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #telasLienzo__producto__lienzos__rollolienzo {
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+}
+
 #telasLienzo__producto__lienzos__rollolienzo__titulo {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.3rem;
@@ -1251,6 +1440,38 @@
 
 #molduras {
   margin-top: 200px;
+}
+
+@media screen and (max-width: 575px) {
+  #molduras {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #molduras {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #molduras {
+    margin-top: 150px;
+  }
+}
+
+#molduras__p {
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 575px) {
+  #molduras__p {
+    margin-right: 0px;
+  }
+}
+
+#molduras__ul {
+  padding-left: 0px;
 }
 
 #molduras__sublista {
@@ -1288,13 +1509,79 @@
   height: auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #molduras__imgs__img1 {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #molduras__imgs__img1 {
+    width: 100%;
+  }
+}
+
 #molduras__imgs__img2 {
   width: 70%;
   height: auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #molduras__imgs__img2 {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #molduras__imgs__img2 {
+    width: 80%;
+  }
+}
+
 #medidas {
   margin-top: 200px;
+}
+
+@media screen and (max-width: 575px) {
+  #medidas {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #medidas {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #medidas {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #medidas__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #medidas__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 #carouselExampleControls {
@@ -1303,9 +1590,55 @@
           box-shadow: 5px 5px 5px #969696;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #carouselExampleControls {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #carouselExampleControls {
+    width: 80%;
+  }
+}
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
+}
+
+#imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #imgs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #imgs {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    gap: 40px;
+  }
 }
 
 #precios__bastidores {
