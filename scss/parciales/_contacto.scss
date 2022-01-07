@@ -37,6 +37,7 @@
 }
 
 #btn--enviar:hover{
+    color: rgb(0, 255, 76);
     background-color: rgb(9, 89, 207);
 }
 
@@ -45,11 +46,11 @@
 #btn--reset{
     @extend #btn;
     background-color: rgb(212, 33, 2);
-   
     margin-left: 20px;
 }
 
 #btn--reset:hover{
     background-color: rgb(173, 39, 16);
+    border:none;
 }
 

@@ -370,7 +370,7 @@
 }
 
 #header {
-  background-color: #729ba5;
+  background-color: #285e6b;
   padding: 10px;
   margin-bottom: 0px;
 }
@@ -433,7 +433,7 @@
 }
 
 #header__nav-links:hover {
-  background-color: rgba(106, 146, 156, 0.507);
+  background-color: rgba(22, 51, 58, 0.507);
   border-radius: 6px;
 }
 
@@ -470,7 +470,7 @@
 
 #btn:hover, #btn--enviar:hover, #btn--reset:hover {
   border: none;
-  color: #729ba5;
+  color: #285e6b;
 }
 
 #footer {
@@ -567,7 +567,6 @@
     border-right: none;
     border-left: none;
     border-top: dashed 2px #659097;
-    border-bottom: dashed 2px #659097;
   }
 }
 
@@ -594,7 +593,6 @@
     border-right: none;
     border-left: none;
     border-top: dashed 2px #659097;
-    border-bottom: dashed 2px #659097;
   }
 }
 
@@ -2182,5 +2180,6 @@
 
 #btn--reset:hover {
   background-color: #ad2710;
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
