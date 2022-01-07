@@ -5,8 +5,20 @@
     &__img{
         width: 75%;
         height: auto;
+        @include xs{
+            width: 100%;
+        }
+
+        @include md{
+            width: 85%;
+        }
+
+        @include sm{
+            width: 95%;
+        }
     }
 }
+
 
 
 

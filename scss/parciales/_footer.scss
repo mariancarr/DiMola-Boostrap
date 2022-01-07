@@ -12,11 +12,13 @@
 
     &__nav{
         list-style: none;
+        text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content:around;
-        align-items:center;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 0px;
 
         @include md{
             justify-content: center;
