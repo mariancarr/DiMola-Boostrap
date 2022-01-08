@@ -2240,6 +2240,17 @@
   }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #comocomprar__row2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media screen and (max-width: 575px) {
   #comocomprar__row1 {
     -webkit-box-pack: center;
@@ -2263,6 +2274,17 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  #comocomprar__row1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   #comocomprar__row1 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
