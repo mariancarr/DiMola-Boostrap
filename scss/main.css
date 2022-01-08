@@ -426,8 +426,8 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   #header__nav-links {
-    margin-left: 10px;
-    padding: 5px 5px;
+    margin-left: 15px;
+    padding: 5px 1px;
     font-size: 1.2;
   }
 }
@@ -524,18 +524,116 @@
 
 #dropdown-menu {
   background-color: white;
-  border-top: 3px solid #00ff95;
-  font-size: 0.9rem;
-  padding-left: 0px;
+  border-top: 5px solid #00ff95;
+  padding-left: 3px;
   padding-right: 8px;
   padding-top: 5px;
+  padding-bottom: 3px;
   width: 80%;
   margin-top: 10px;
-  text-align: justify;
+}
+
+@media screen and (max-width: 575px) {
+  #dropdown-menu {
+    margin-top: 0px;
+    padding-right: 3px;
+    padding-left: 15px;
+    border: none;
+    background-color: #285e6b;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #dropdown-menu {
+    margin-top: 0px;
+    padding-right: 3px;
+    padding-left: 15px;
+    border: none;
+    background-color: #285e6b;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #dropdown-menu {
+    margin-top: 0px;
+    padding-right: 3px;
+    padding-left: 15px;
+    border: none;
+    background-color: #285e6b;
+  }
 }
 
 #dropdown-item {
-  margin-top: 12px;
+  font-size: 0.9rem;
+  margin-top: 6px;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  padding: 5px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  #dropdown-item {
+    font-size: 1.1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #dropdown-item {
+    font-size: 1.1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #dropdown-item {
+    font-size: 1.2rem;
+    color: white;
+  }
+}
+
+#dropdown-item:hover {
+  color: #0ea700;
+  background-color: white;
+}
+
+#dropdown-item1 {
+  font-size: 0.9rem;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  padding: 5px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  #dropdown-item1 {
+    font-size: 1.1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #dropdown-item1 {
+    font-size: 1.1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #dropdown-item1 {
+    font-size: 1.2rem;
+    color: white;
+  }
+}
+
+#dropdown-item1:hover {
+  color: #0ea700;
+  background-color: white;
+}
+
+#arrow-down {
+  font-size: 0.9rem;
 }
 
 #footer {
@@ -1877,6 +1975,28 @@
   #precios__bastidores__img {
     width: 95%;
   }
+}
+
+#arrow-left-right {
+  font-size: 1.2rem;
+  margin: 0px 5px;
+  color: green;
+}
+
+#precio-siguiente {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+#precio-siguiente:hover {
+  color: green;
+}
+
+#precios_end {
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 575px) {

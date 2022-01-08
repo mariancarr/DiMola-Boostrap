@@ -25,15 +25,14 @@
               <a class="nav-link" id="header__nav-links"  href="../pages/productos.html">Productos</a>
               <li class="nav-item dropdown">
                 <a class="header__nav-links" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <span id="dropdown-precio"> Precios </span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
-                                            <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
-                                        </svg>
+                 <span id="dropdown-precio"> Precios </span>
+                 <i class="fas fa-chevron-down" id="arrow-down"></i> 
                           
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown-menu">
-                  <li><a class="dropdown-item" href="#" >Bastidores, Pinturas <br>y  Lienzos</a></li>
+                  <li><a class="dropdown-item" id="dropdown-item1" href="./precio_bastidores.html" >Bastidores, Pinturas <br>y  Lienzos</a></li>
                   <li><a class="dropdown-item" id="dropdown-item" href="#">Accesorios</a></li>
-                  <li><a class="dropdown-item" id="dropdown-item" href="#">Pinceles</a></li>
+                  <li><a class="dropdown-item" id="dropdown-item" href="./precio_pinceles.html">Pinceles</a></li>
                 </ul>
               </li>
               <a class="nav-link" id="header__nav-links"  href="../pages/como_comprar.html">¿Cómo Comprar?</a>
@@ -49,21 +48,27 @@
    
         
     <h1 id="titulo">
-        PRECIOS BASTIDORES
+        PRECIOS ACCESORIOS
     </h1>
     <div class="container">
         <div class="row">
             <div class="col-xl-12 col-12 col-sm-12" id="precios__bastidores">
-                <img  id="precios__bastidores__img" src="../images/precios.jpg" alt="Tabla de precios">
+                <img  id="precios__bastidores__img" src="../images/precios-accesorios.jpg" alt="Tabla de precios">
             </div>
         </div>
-    </div>    
+    </div>
+    
+    <div class="container" id="precios_end">
+        <div class="row">
+            <div class="col-xl-6" id="flex-row-center">
+                <a href="./precio_bastidores.html" id="precio-siguiente"><i class="fas fa-angle-double-left" id="arrow-left-right"></i>Precios Bastidores</a>
+            </div>
+            <div class="col-xl-6" id="flex-row-center">
+                <a href="./precio_pinceles.html" id="precio-siguiente"> Precios Pinceles <i class="fas fa-angle-double-right" id="arrow-left-right"></i></a>
+            </div>
+        </div>
+    </div>
         
-            
-        
- 
-
-
      
     <div class="container-fluid p-3" style="margin-top:80px" id="footer">
         <div class="row" id="footer__row">

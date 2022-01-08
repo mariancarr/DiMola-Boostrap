@@ -47,8 +47,8 @@
         text-decoration: none;
     
         @include lg{
-            margin-left: 10px;
-            padding: 5px 5px;
+            margin-left: 15px;
+            padding: 5px 1px;
             font-size: 1.2;
         }
 
@@ -145,17 +145,88 @@
 
 #dropdown-menu{
     background-color: white;
-    border-top: 3px solid rgb(0, 255, 149);
-    font-size: 0.9rem;
-    padding-left: 0px;
+    border-top: 5px solid rgb(0, 255, 149);
+    padding-left: 3px;
     padding-right: 8px;
     padding-top: 5px;
+    padding-bottom: 3px;
     width: 80%;
     margin-top: 10px;
-    text-align: justify;
+    @include xs{
+        margin-top: 0px;
+        padding-right: 3px;
+        padding-left: 15px;
+        border: none;
+        background-color: rgb(40, 94, 107);
+    }
+
+    @include sm{
+        margin-top: 0px;
+        padding-right: 3px;
+        padding-left: 15px;
+        border: none;
+        background-color: rgb(40, 94, 107);
+    }
+
+    @include md{
+        margin-top: 0px;
+        padding-right: 3px;
+        padding-left: 15px;
+        border: none;
+        background-color: rgb(40, 94, 107);
+    }
+
 }
 
 
 #dropdown-item{
-    margin-top: 12px;
+    font-size: 0.9rem;
+    margin-top: 6px;
+    transition: all 0.1s ease-out;
+    padding: 5px; 
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    @include xs{
+        font-size: 1.1rem;
+        color: white;
+    }
+    @include sm{
+        font-size: 1.1rem;
+        color: white;
+    }
+    @include md{
+        font-size: 1.2rem;
+        color: white;
+    }
+    &:hover{
+        color:rgb(14, 167, 0);
+        background-color: white;
+    }
+}
+
+#dropdown-item1{
+    font-size: 0.9rem;
+    transition: all 0.1s ease-out;
+    padding: 5px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    @include xs{
+        font-size: 1.1rem;
+        color: white;
+    }
+    @include sm{
+        font-size: 1.1rem;
+        color: white;
+    }
+
+    @include md{
+        font-size: 1.2rem;
+        color: white;
+    }
+    &:hover{
+        color:rgb(14, 167, 0);
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+#arrow-down{
+    font-size: 0.9rem;
 }
