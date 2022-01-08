@@ -186,15 +186,15 @@
     padding: 5px; 
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     @include xs{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color: white;
     }
     @include sm{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color: white;
     }
     @include md{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: white;
     }
     &:hover{
@@ -209,16 +209,16 @@
     padding: 5px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     @include xs{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color: white;
     }
     @include sm{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color: white;
     }
 
     @include md{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: white;
     }
     &:hover{

@@ -574,21 +574,21 @@
 
 @media screen and (max-width: 575px) {
   #dropdown-item {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #dropdown-item {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #dropdown-item {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
   }
 }
@@ -608,21 +608,21 @@
 
 @media screen and (max-width: 575px) {
   #dropdown-item1 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #dropdown-item1 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #dropdown-item1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
   }
 }
