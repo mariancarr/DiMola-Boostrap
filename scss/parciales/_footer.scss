@@ -135,18 +135,18 @@
         height: 27px;
         width: 27px;
         @include xs{
-            width: 30px;
-            height: 30px;
+            width: 28px;
+            height: 28px;
         }
 
         @include sm{
-            width: 30px;
-            height: 30px;
+            width: 28px;
+            height: 28px;
         }
 
         @include md{
-            width: 30px;
-            height: 30px;
+            width: 28px;
+            height: 28px;
         }
 
         &:hover{
@@ -163,7 +163,8 @@
             @extend #footer__redes__img:hover;
             color: rgb(216, 0, 162);
             @include xs{
-                color: black;
+                color: rgb(250, 250, 250);
+                opacity: 0.8;
             }  
             
             @include sm{

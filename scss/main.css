@@ -882,22 +882,22 @@
 
 @media screen and (max-width: 575px) {
   #footer__redes__img, #footer__redes__insta, #footer__redes__face, #footer__redes__mail, #footer__redes__wpp {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #footer__redes__img, #footer__redes__insta, #footer__redes__face, #footer__redes__mail, #footer__redes__wpp {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #footer__redes__img, #footer__redes__insta, #footer__redes__face, #footer__redes__mail, #footer__redes__wpp {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -913,7 +913,8 @@
 
 @media screen and (max-width: 575px) {
   #footer__redes__insta:hover {
-    color: black;
+    color: #fafafa;
+    opacity: 0.8;
   }
 }
 
