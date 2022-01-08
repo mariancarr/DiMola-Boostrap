@@ -210,20 +210,8 @@
     }
 
     &__img__1y2{
-        width: 30%;
+        width: 100%;
         height: auto;
-        @include xs{
-            width: 100%;
-        }
-        @include sm{
-            width: 100%;
-        }
-        @include md{
-            width: 100%;
-        }
-        @include lg{
-            width: 100%;
-        }
     }
 }   
 

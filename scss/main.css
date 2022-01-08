@@ -2516,32 +2516,8 @@
 }
 
 #envioszonas__img__1y2 {
-  width: 30%;
+  width: 100%;
   height: auto;
-}
-
-@media screen and (max-width: 575px) {
-  #envioszonas__img__1y2 {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  #envioszonas__img__1y2 {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  #envioszonas__img__1y2 {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  #envioszonas__img__1y2 {
-    width: 100%;
-  }
 }
 
 #mediospagos {
