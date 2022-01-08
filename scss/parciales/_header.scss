@@ -221,7 +221,6 @@
 
 #dropdown-item{
     font-size: 0.9rem;
-    margin-top: 6px;
     transition: all 0.1s ease-out;
     padding: 5px; 
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -240,30 +239,6 @@
     &:hover{
         color:rgb(14, 167, 0);
         background-color: white;
-    }
-}
-
-#dropdown-item1{
-    font-size: 0.9rem;
-    transition: all 0.1s ease-out;
-    padding: 5px;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    @include xs{
-        font-size: 1.3rem;
-        color: white;
-    }
-    @include sm{
-        font-size: 1.3rem;
-        color: white;
-    }
-
-    @include md{
-        font-size: 1.3rem;
-        color: white;
-    }
-    &:hover{
-        color:rgb(14, 167, 0);
-        background-color: rgb(255, 255, 255);
 
         @include xs{
             background-color:rgb(40, 94, 107);
@@ -276,6 +251,15 @@
             background-color:rgb(40, 94, 107);
         }
     }
+}
+
+#dropdown-item1{
+    @extend #dropdown-item;
+}
+
+#dropdown-item2{
+    @extend #dropdown-item;
+    margin-top: 6px;
 }
 
 #arrow-down{

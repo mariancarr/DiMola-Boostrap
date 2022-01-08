@@ -623,91 +623,60 @@
   }
 }
 
-#dropdown-item {
+#dropdown-item, #dropdown-item1, #dropdown-item2 {
   font-size: 0.9rem;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  padding: 5px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  #dropdown-item, #dropdown-item1, #dropdown-item2 {
+    font-size: 1.3rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #dropdown-item, #dropdown-item1, #dropdown-item2 {
+    font-size: 1.3rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #dropdown-item, #dropdown-item1, #dropdown-item2 {
+    font-size: 1.3rem;
+    color: white;
+  }
+}
+
+#dropdown-item:hover, #dropdown-item1:hover, #dropdown-item2:hover {
+  color: #0ea700;
+  background-color: white;
+}
+
+@media screen and (max-width: 575px) {
+  #dropdown-item:hover, #dropdown-item1:hover, #dropdown-item2:hover {
+    background-color: #285e6b;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #dropdown-item:hover, #dropdown-item1:hover, #dropdown-item2:hover {
+    background-color: #285e6b;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #dropdown-item:hover, #dropdown-item1:hover, #dropdown-item2:hover {
+    background-color: #285e6b;
+  }
+}
+
+#dropdown-item2 {
   margin-top: 6px;
-  -webkit-transition: all 0.1s ease-out;
-  transition: all 0.1s ease-out;
-  padding: 5px;
-  font-family: 'Zen Kaku Gothic Antique', sans-serif;
-}
-
-@media screen and (max-width: 575px) {
-  #dropdown-item {
-    font-size: 1.3rem;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  #dropdown-item {
-    font-size: 1.3rem;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  #dropdown-item {
-    font-size: 1.3rem;
-    color: white;
-  }
-}
-
-#dropdown-item:hover {
-  color: #0ea700;
-  background-color: white;
-}
-
-#dropdown-item1 {
-  font-size: 0.9rem;
-  -webkit-transition: all 0.1s ease-out;
-  transition: all 0.1s ease-out;
-  padding: 5px;
-  font-family: 'Zen Kaku Gothic Antique', sans-serif;
-}
-
-@media screen and (max-width: 575px) {
-  #dropdown-item1 {
-    font-size: 1.3rem;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  #dropdown-item1 {
-    font-size: 1.3rem;
-    color: white;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  #dropdown-item1 {
-    font-size: 1.3rem;
-    color: white;
-  }
-}
-
-#dropdown-item1:hover {
-  color: #0ea700;
-  background-color: white;
-}
-
-@media screen and (max-width: 575px) {
-  #dropdown-item1:hover {
-    background-color: #285e6b;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  #dropdown-item1:hover {
-    background-color: #285e6b;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  #dropdown-item1:hover {
-    background-color: #285e6b;
-  }
 }
 
 #arrow-down {
