@@ -23,6 +23,11 @@
         justify-content: center;
         align-items: center;
     }
+
+    @include md{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 #comocomprar__row1{
@@ -32,6 +37,11 @@
     }
 
     @include sm{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @include md{
         justify-content: center;
         align-items: center;
     }
@@ -201,7 +211,7 @@
             }
 
             @include md{
-                width: 50%;
+                width: 60%;
             }
         }
     }   
