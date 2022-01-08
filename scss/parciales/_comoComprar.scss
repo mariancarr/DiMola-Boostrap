@@ -30,7 +30,7 @@
     }
 
     @include lg{
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
     }
 }
@@ -52,7 +52,7 @@
     }
 
     @include lg{
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
 }

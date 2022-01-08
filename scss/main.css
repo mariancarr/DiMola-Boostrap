@@ -2242,9 +2242,9 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   #comocomprar__row2 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -2286,9 +2286,9 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   #comocomprar__row1 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
