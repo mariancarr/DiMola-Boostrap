@@ -1321,7 +1321,7 @@
 @media screen and (max-width: 575px) {
   #hero {
     padding: 30px 15px;
-    background-size: cover;
+    background-size: contain;
   }
 }
 
