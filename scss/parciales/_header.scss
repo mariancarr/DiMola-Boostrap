@@ -264,6 +264,17 @@
     &:hover{
         color:rgb(14, 167, 0);
         background-color: rgb(255, 255, 255);
+
+        @include xs{
+            background-color:rgb(40, 94, 107);
+        }
+        @include sm{
+            background-color:rgb(40, 94, 107);
+        }
+    
+        @include md{
+            background-color:rgb(40, 94, 107);
+        }
     }
 }
 

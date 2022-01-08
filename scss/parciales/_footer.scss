@@ -137,7 +137,25 @@
 
         &:hover{
             transform: scale(1.2);
-            opacity: 1;     
+            opacity: 1;  
+        }
+
+        &:active{
+            @include xs{
+                transform: scale(1.2);
+                opacity: 1; 
+            }
+
+            @include sm{
+                transform: scale(1.2);
+                opacity: 1; 
+            }
+
+            @include md{
+                transform: scale(1.2);
+                opacity: 1; 
+            }
+             
         }
     }
     
@@ -147,7 +165,23 @@
     
         &:hover{
             @extend #footer__redes__img:hover;
-            color: rgb(216, 0, 162);     
+            color: rgb(216, 0, 162);
+            @include xs{
+                color: black;
+            }  
+            
+            @include sm{
+                color: black;
+            } 
+
+            @include md{
+                color: black;
+            } 
+        }
+
+        &:active{
+            @extend #footer__redes__img:active;
+            color: rgb(216, 0, 162);   
         }
     }
     
@@ -158,7 +192,23 @@
     
         &:hover{
             @extend #footer__redes__img:hover;
-            color: rgb(2, 41, 168);     
+            color: rgb(2, 41, 168);  
+            @include xs{
+                color: black;
+            }  
+            
+            @include sm{
+                color: black;
+            } 
+
+            @include md{
+                color: black;
+            }    
+        }
+
+        &:active{
+            @extend #footer__redes__img:active;
+            color: rgb(216, 0, 162);   
         }
     }
     
@@ -169,7 +219,23 @@
     
         &:hover{
             @extend #footer__redes__img:hover;
-            color: rgb(0, 215, 253);     
+            color: rgb(0, 215, 253); 
+            @include xs{
+                color: black;
+            }  
+            
+            @include sm{
+                color: black;
+            } 
+
+            @include md{
+                color: black;
+            }     
+        }
+
+        &:active{
+            @extend #footer__redes__img:active;
+            color: rgb(216, 0, 162);   
         }
     }
     
@@ -178,7 +244,23 @@
     
         &:hover{
             @extend #footer__redes__img:hover;
-            color: rgb(0, 255, 34);     
+            color: rgb(0, 255, 34); 
+            @include xs{
+                color: black;
+            }  
+            
+            @include sm{
+                color: black;
+            } 
+
+            @include md{
+                color: black;
+            }     
+        }
+
+        &:active{
+            @extend #footer__redes__img:active;
+            color: rgb(216, 0, 162);   
         }
     }
 

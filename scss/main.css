@@ -692,6 +692,24 @@
   background-color: white;
 }
 
+@media screen and (max-width: 575px) {
+  #dropdown-item1:hover {
+    background-color: #285e6b;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #dropdown-item1:hover {
+    background-color: #285e6b;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #dropdown-item1:hover {
+    background-color: #285e6b;
+  }
+}
+
 #arrow-down {
   font-size: 0.9rem;
 }
@@ -899,7 +917,53 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 575px) {
+  #footer__redes__img:active, #footer__redes__insta:active, #footer__redes__face:active, #footer__redes__mail:active, #footer__redes__wpp:active {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #footer__redes__img:active, #footer__redes__insta:active, #footer__redes__face:active, #footer__redes__mail:active, #footer__redes__wpp:active {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer__redes__img:active, #footer__redes__insta:active, #footer__redes__face:active, #footer__redes__mail:active, #footer__redes__wpp:active {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
 #footer__redes__insta:hover {
+  color: #d800a2;
+}
+
+@media screen and (max-width: 575px) {
+  #footer__redes__insta:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #footer__redes__insta:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer__redes__insta:hover {
+    color: black;
+  }
+}
+
+#footer__redes__insta:active {
   color: #d800a2;
 }
 
@@ -907,12 +971,78 @@
   color: #0229a8;
 }
 
+@media screen and (max-width: 575px) {
+  #footer__redes__face:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #footer__redes__face:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer__redes__face:hover {
+    color: black;
+  }
+}
+
+#footer__redes__face:active {
+  color: #d800a2;
+}
+
 #footer__redes__mail:hover {
   color: #00d7fd;
 }
 
+@media screen and (max-width: 575px) {
+  #footer__redes__mail:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #footer__redes__mail:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer__redes__mail:hover {
+    color: black;
+  }
+}
+
+#footer__redes__mail:active {
+  color: #d800a2;
+}
+
 #footer__redes__wpp:hover {
   color: #00ff22;
+}
+
+@media screen and (max-width: 575px) {
+  #footer__redes__wpp:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #footer__redes__wpp:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer__redes__wpp:hover {
+    color: black;
+  }
+}
+
+#footer__redes__wpp:active {
+  color: #d800a2;
 }
 
 #footer__end {
@@ -1240,7 +1370,8 @@
 
 @media screen and (max-width: 575px) {
   #hero {
-    padding: 0px 15px;
+    padding: 30px 15px;
+    background-position: right;
   }
 }
 
@@ -2189,7 +2320,7 @@
 
 @media screen and (max-width: 575px) {
   #comocomprar__pasos__contenedores {
-    padding: 10px;
+    padding: 20px;
     margin: 15px 2px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
