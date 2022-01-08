@@ -10,7 +10,7 @@
         }
 
         @include md{
-            width: 85%;
+            width: 95%;
         }
 
         @include sm{
@@ -27,15 +27,49 @@
 }
 
 #precio-siguiente{
+    font-family: 'Roboto Slab', serif;
     text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
+    font-size: 1.4rem;
+    color: rgb(61, 61, 61);
     transition: all 0.1s linear;
+    @include sm{
+        font-size: 1.2rem;
+    }
+
+    @include xs{
+        font-size: 1.3rem;
+    }
+    
     &:hover{
         color: rgb(0, 128, 0);
     }
 }
 
 #precios_end{
-    margin-top: 30px;
+    margin-top: 50px;
+
+
+    &_row{
+        @include xs{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @include sm{
+            justify-content: center;
+            align-items: center;
+        }
+
+        @include md{
+            justify-content: center;
+            align-items: center;
+        }
+        @include lg{
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
