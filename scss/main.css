@@ -887,7 +887,7 @@
 }
 
 @media screen and (max-width: 575px) {
-  #footer__redes__img:active, #footer__redes__insta:active, #footer__redes__face:active, #footer__redes__mail:active, #footer__redes__wpp:active {
+  #footer__redes__img:focus, #footer__redes__insta:focus, #footer__redes__face:focus, #footer__redes__mail:focus, #footer__redes__wpp:focus {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     opacity: 1;
@@ -895,7 +895,7 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  #footer__redes__img:active, #footer__redes__insta:active, #footer__redes__face:active, #footer__redes__mail:active, #footer__redes__wpp:active {
+  #footer__redes__img:focus, #footer__redes__insta:focus, #footer__redes__face:focus, #footer__redes__mail:focus, #footer__redes__wpp:focus {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     opacity: 1;
@@ -903,7 +903,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  #footer__redes__img:active, #footer__redes__insta:active, #footer__redes__face:active, #footer__redes__mail:active, #footer__redes__wpp:active {
+  #footer__redes__img:focus, #footer__redes__insta:focus, #footer__redes__face:focus, #footer__redes__mail:focus, #footer__redes__wpp:focus {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     opacity: 1;
@@ -932,7 +932,7 @@
   }
 }
 
-#footer__redes__insta:active {
+#footer__redes__insta:focus {
   color: #d800a2;
 }
 
@@ -958,7 +958,7 @@
   }
 }
 
-#footer__redes__face:active {
+#footer__redes__face:focus {
   color: #0229a8;
 }
 
@@ -984,7 +984,7 @@
   }
 }
 
-#footer__redes__mail:active {
+#footer__redes__mail:focus {
   color: #00d7fd;
 }
 
@@ -1010,7 +1010,7 @@
   }
 }
 
-#footer__redes__wpp:active {
+#footer__redes__wpp:focus {
   color: #00ff22;
 }
 

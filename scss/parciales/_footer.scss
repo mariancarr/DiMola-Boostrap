@@ -140,7 +140,7 @@
             opacity: 1;  
         }
 
-        &:active{
+        &:focus{
             @include xs{
                 transform: scale(1.2);
                 opacity: 1; 
@@ -179,8 +179,8 @@
             } 
         }
 
-        &:active{
-            @extend #footer__redes__img:active;
+        &:focus{
+            @extend #footer__redes__img:focus;
             color: rgb(216, 0, 162);   
         }
     }
@@ -206,8 +206,8 @@
             }    
         }
 
-        &:active{
-            @extend #footer__redes__img:active;
+        &:focus{
+            @extend #footer__redes__img:focus;
             color: rgb(2, 41, 168);   
         }
     }
@@ -233,8 +233,8 @@
             }     
         }
 
-        &:active{
-            @extend #footer__redes__img:active;
+        &:focus{
+            @extend #footer__redes__img:focus;
             color: rgb(0, 215, 253);   
         }
     }
@@ -258,8 +258,8 @@
             }     
         }
 
-        &:active{
-            @extend #footer__redes__img:active;
+        &:focus{
+            @extend #footer__redes__img:focus;
             color: rgb(0, 255, 34);   
         }
     }
