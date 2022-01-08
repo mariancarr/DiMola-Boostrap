@@ -12,8 +12,7 @@
 
     @include xs{
         padding: 30px 15px;
-        background-size: contain;
-        
+        background-size: auto;  
     }
     
     &__container{
