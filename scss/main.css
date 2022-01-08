@@ -913,8 +913,7 @@
 
 @media screen and (max-width: 575px) {
   #footer__redes__insta:hover {
-    color: #fafafa;
-    opacity: 0.8;
+    color: black;
   }
 }
 

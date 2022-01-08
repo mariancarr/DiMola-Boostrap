@@ -163,8 +163,7 @@
             @extend #footer__redes__img:hover;
             color: rgb(216, 0, 162);
             @include xs{
-                color: rgb(250, 250, 250);
-                opacity: 0.8;
+                color: rgb(0, 0, 0);
             }  
             
             @include sm{
