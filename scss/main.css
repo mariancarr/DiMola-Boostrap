@@ -2448,11 +2448,14 @@
   margin-top: 100px;
 }
 
-#envioszonas__img {
-  margin-top: 40px;
+#envioszonas__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   gap: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -2460,30 +2463,33 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 40px;
   height: auto;
 }
 
 @media screen and (max-width: 575px) {
-  #envioszonas__img {
+  #envioszonas__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 10px;
+    gap: 30px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  #envioszonas__img {
-    gap: 20px;
+  #envioszonas__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  #envioszonas__img {
-    margin-left: 10px;
-    margin-right: 10px;
-    gap: 20px;
+  #envioszonas__row {
+    gap: 30px;
   }
 }
 
@@ -2494,19 +2500,25 @@
 
 @media screen and (max-width: 575px) {
   #envioszonas__img__1y2 {
-    width: 95%;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #envioszonas__img__1y2 {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #envioszonas__img__1y2 {
-    width: 50%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #envioszonas__img__1y2 {
+    width: 100%;
   }
 }
 
@@ -2524,6 +2536,18 @@
 @media screen and (min-width: 576px) and (max-width: 767px) {
   #mediospagos {
     margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #mediospagos {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #mediospagos {
+    margin-top: 100px;
   }
 }
 
@@ -2545,6 +2569,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  #mediospagos__img {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   #mediospagos__img {
     width: 70%;
   }
