@@ -880,34 +880,31 @@
   width: 27px;
 }
 
-#footer__redes__img:hover, #footer__redes__insta:hover, #footer__redes__face:hover, #footer__redes__mail:hover, #footer__redes__wpp:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  opacity: 1;
-}
-
 @media screen and (max-width: 575px) {
-  #footer__redes__img:focus, #footer__redes__insta:focus, #footer__redes__face:focus, #footer__redes__mail:focus, #footer__redes__wpp:focus {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    opacity: 1;
+  #footer__redes__img, #footer__redes__insta, #footer__redes__face, #footer__redes__mail, #footer__redes__wpp {
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  #footer__redes__img:focus, #footer__redes__insta:focus, #footer__redes__face:focus, #footer__redes__mail:focus, #footer__redes__wpp:focus {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    opacity: 1;
+  #footer__redes__img, #footer__redes__insta, #footer__redes__face, #footer__redes__mail, #footer__redes__wpp {
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  #footer__redes__img:focus, #footer__redes__insta:focus, #footer__redes__face:focus, #footer__redes__mail:focus, #footer__redes__wpp:focus {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    opacity: 1;
+  #footer__redes__img, #footer__redes__insta, #footer__redes__face, #footer__redes__mail, #footer__redes__wpp {
+    width: 30px;
+    height: 30px;
   }
+}
+
+#footer__redes__img:hover, #footer__redes__insta:hover, #footer__redes__face:hover, #footer__redes__mail:hover, #footer__redes__wpp:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 1;
 }
 
 #footer__redes__insta:hover {
@@ -932,10 +929,6 @@
   }
 }
 
-#footer__redes__insta:focus {
-  color: #d800a2;
-}
-
 #footer__redes__face:hover {
   color: #0229a8;
 }
@@ -956,10 +949,6 @@
   #footer__redes__face:hover {
     color: black;
   }
-}
-
-#footer__redes__face:focus {
-  color: #0229a8;
 }
 
 #footer__redes__mail:hover {
@@ -984,10 +973,6 @@
   }
 }
 
-#footer__redes__mail:focus {
-  color: #00d7fd;
-}
-
 #footer__redes__wpp:hover {
   color: #00ff22;
 }
@@ -1008,10 +993,6 @@
   #footer__redes__wpp:hover {
     color: black;
   }
-}
-
-#footer__redes__wpp:focus {
-  color: #00ff22;
 }
 
 #footer__end {

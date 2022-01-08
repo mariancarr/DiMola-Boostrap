@@ -134,28 +134,24 @@
         color: black;
         height: 27px;
         width: 27px;
+        @include xs{
+            width: 30px;
+            height: 30px;
+        }
+
+        @include sm{
+            width: 30px;
+            height: 30px;
+        }
+
+        @include md{
+            width: 30px;
+            height: 30px;
+        }
 
         &:hover{
             transform: scale(1.2);
             opacity: 1;  
-        }
-
-        &:focus{
-            @include xs{
-                transform: scale(1.2);
-                opacity: 1; 
-            }
-
-            @include sm{
-                transform: scale(1.2);
-                opacity: 1; 
-            }
-
-            @include md{
-                transform: scale(1.2);
-                opacity: 1; 
-            }
-             
         }
     }
     
@@ -178,11 +174,6 @@
                 color: black;
             } 
         }
-
-        &:focus{
-            @extend #footer__redes__img:focus;
-            color: rgb(216, 0, 162);   
-        }
     }
     
     
@@ -204,11 +195,6 @@
             @include md{
                 color: black;
             }    
-        }
-
-        &:focus{
-            @extend #footer__redes__img:focus;
-            color: rgb(2, 41, 168);   
         }
     }
     
@@ -233,10 +219,7 @@
             }     
         }
 
-        &:focus{
-            @extend #footer__redes__img:focus;
-            color: rgb(0, 215, 253);   
-        }
+        
     }
     
     &__redes__wpp{
@@ -256,11 +239,6 @@
             @include md{
                 color: black;
             }     
-        }
-
-        &:focus{
-            @extend #footer__redes__img:focus;
-            color: rgb(0, 255, 34);   
         }
     }
 
