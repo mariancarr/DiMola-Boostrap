@@ -2757,8 +2757,8 @@
   transition: -webkit-box-shadow 0.1s linear;
   transition: box-shadow 0.1s linear;
   transition: box-shadow 0.1s linear, -webkit-box-shadow 0.1s linear;
-  -webkit-box-shadow: 0px 2px 2px 1px #686868;
-          box-shadow: 0px 2px 2px 1px #686868;
+  -webkit-box-shadow: 0px 1px 2px 1px #686868;
+          box-shadow: 0px 1px 2px 1px #686868;
 }
 
 #btn--enviar {
@@ -2771,8 +2771,8 @@
 }
 
 #btn--enviar:active {
-  -webkit-box-shadow: 0px 1px 1px 0px #646464;
-          box-shadow: 0px 1px 1px 0px #646464;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 #btn--reset {
@@ -2787,7 +2787,7 @@
 }
 
 #btn--reset:active {
-  -webkit-box-shadow: 0px 1px 1px 0px #646464;
-          box-shadow: 0px 1px 1px 0px #646464;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=main.css.map */
