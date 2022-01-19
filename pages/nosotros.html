@@ -13,55 +13,56 @@
     
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark" id="header">
-    <div class="container-fluid">
-      <div id="header__logo">
-        <img id="header__logo-img" src="../images/logo-dimola.png" alt="Logo">
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="btn">
-        <i class="fas fa-bars" id="btn__header"></i>
-      </button>
-      <div class="collapse navbar-collapse justify-content-start  align-self-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav" id="header__nav">
-            <ul class="lista_nav">  
-                <li>
-                    <a class="nav-link" id="header__nav-links"  href="../index.html">Inicio</a>
-                </li> 
-                <li>
-                <a class="nav-link" id="header__nav-links"  href="../pages/productos.html">Productos</a>
-                </li>  
-                <li class="nav-item dropdown">
-                  <a id="header__nav-links2"  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span id="dropdown-precio"> Precios </span>
-                   <i class="fas fa-chevron-down" id="arrow-down"></i> 
 
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown-menu">
-                    <li><a class="dropdown-item" id="dropdown-item1" href="../pages/precio_bastidores.html" >Bastidores, Pinturas <br>y  Lienzos</a></li>
-                    <li><a class="dropdown-item" id="dropdown-item2" href="../pages/precio_accesorio.html">Accesorios</a></li>
-                    <li><a class="dropdown-item" id="dropdown-item2" href="../pages/precio_pinceles.html">Pinceles</a></li>
-                  </ul>
-                </li>
-                <li>
-                    <a class="nav-link" id="header__nav-links"  href="../pages/como_comprar.html">¿Cómo Comprar?</a>
-                </li>
-                <li>
-                <a class="nav-link" id="header__nav-links"  href="#">Nosotros </a>
-                </li>
-                <li>
-                <a class="nav-link" id="header__nav-links"  href="../pages/contacto.html">Contacto</a>
-                </li>
-            </ul>   
+  <!--HEADER-->       
+    <nav class="navbar navbar-expand-lg navbar-dark" id="header">
+      <div class="container-fluid">
+        <div id="header__logo">
+          <img id="header__logo-img" src="../images/logo-dimola.png" alt="Logo">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="btn">
+          <i class="fas fa-bars" id="btn__header"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-start  align-self-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="header__nav">
+              <ul class="lista_nav">  
+                  <li>
+                      <a class="nav-link" id="header__nav-links"  href="../index.html">Inicio</a>
+                  </li> 
+                  <li>
+                  <a class="nav-link" id="header__nav-links"  href="../pages/productos.html">Productos</a>
+                  </li>  
+                  <li class="nav-item dropdown">
+                    <a id="header__nav-links2"  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     <span id="dropdown-precio"> Precios </span>
+                     <i class="fas fa-chevron-down" id="arrow-down"></i>    
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown-menu">
+                      <li><a class="dropdown-item" id="dropdown-item1" href="../pages/precio_bastidores.html" >Bastidores, Pinturas <br>y  Lienzos</a></li>
+                      <li><a class="dropdown-item" id="dropdown-item2" href="../pages/precio_accesorio.html">Accesorios</a></li>
+                      <li><a class="dropdown-item" id="dropdown-item2" href="../pages/precio_pinceles.html">Pinceles</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                      <a class="nav-link" id="header__nav-links"  href="../pages/como_comprar.html">¿Cómo Comprar?</a>
+                  </li>
+                  <li>
+                  <a class="nav-link" id="header__nav-links"  href="#">Nosotros </a>
+                  </li>
+                  <li>
+                  <a class="nav-link" id="header__nav-links"  href="../pages/contacto.html">Contacto</a>
+                  </li>
+              </ul>   
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-
-
+    </nav>
     <hr class="color-change-4x" id="header__separador">
 
+    <!--EMPIEZA MAIN--> 
     <h1 id="titulo">NOSOTROS</h1>
-    
+
+    <!--CAROUSEL--> 
     <div class="container text-center" id="nosotros">  
         <div class="row" id="nosotros__row">
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-sm-12 col-md-12 col-11"  id="flex-row-center">
@@ -79,7 +80,7 @@
                         <img src="../images/nostrosbastidores.jpg" class="d-block w-100" alt="logo DiMola">
                       </div>
                       <div class="carousel-item" id="carousel-vid">
-                        <video src="../images/dimolaprin.mp4"  autoplay muted controls class="d-block w-100" alt="Video haciendo un bastidor">
+                        <img src="../images/dimolaprin.jpg" class="d-block w-100" alt="logo DiMola">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -93,6 +94,7 @@
                   </div>
             </div>
 
+            <!--TEXTO--> 
             <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12" id="nosotros__txt" >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16" id="nosotros__txt__carita">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -114,6 +116,7 @@
         </div>
     </div>
 
+    <!--END PAGINA--> 
     <div class="container d-flex flex-column justify-content-center align-items-center text-center" id="endcontacto" style="margin-top: 100px;">
         <div class="row">
             <div class="col" syle="margin-bottom:10px;">
@@ -128,11 +131,8 @@
             </div>
         </div>
     </div>
-              
-
                     
-            
-    
+    <!--FOOTER--> 
     <div class="container-fluid p-3" style="margin-top:80px" id="footer">
       <div class="row" id="footer__row">
           <div class="col-xl-4 col-lg-4">
@@ -192,6 +192,7 @@
       <span id="footer__end__p">&copy DIMOLA Bastidores</span> <span class="footer__end__span"> ♦ Buenos Aires, Argentina 2021 ♦ by Mariano Carrillo </span> 
   </div>
 
+<!--SCRIPTS--> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="../scripts/smootScroll.js"></script>

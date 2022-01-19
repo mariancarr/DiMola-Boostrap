@@ -2753,10 +2753,10 @@
   -webkit-transition: background-color 0.3s linear;
   transition: background-color 0.3s linear;
   color: white;
-  -webkit-transition: -webkit-box-shadow 0.1s linear;
-  transition: -webkit-box-shadow 0.1s linear;
-  transition: box-shadow 0.1s linear;
-  transition: box-shadow 0.1s linear, -webkit-box-shadow 0.1s linear;
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: -webkit-transform 0.1s linear;
+  transition: transform 0.1s linear;
+  transition: transform 0.1s linear, -webkit-transform 0.1s linear;
   -webkit-box-shadow: 0px 1px 2px 1px #686868;
           box-shadow: 0px 1px 2px 1px #686868;
 }
@@ -2771,8 +2771,8 @@
 }
 
 #btn--enviar:active {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 #btn--reset {
@@ -2787,7 +2787,7 @@
 }
 
 #btn--reset:active {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 /*# sourceMappingURL=main.css.map */
